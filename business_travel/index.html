@@ -1,0 +1,392 @@
+<html>
+<head>
+<title>Business Travel</title>
+<link rel="stylesheet" type="text/css" href="ss_business_travel.css" />
+<!--[if IE]>
+    <style type="text/css">
+        #ss_novice_app_content{
+            top:89px;
+        }
+    </style>
+<![endif]-->
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>
+<script src="ss_business_travel.js"></script>
+</head>
+<body style="width:800px; margin:auto">
+
+<div id="ss_business_wrapper">
+    <div id="ss_experience_person">
+        <div id="ss_text"></div>
+        <div id="ss_experience_level"></div>
+        <div id="ss_novice_person"></div>
+        <div id="ss_intermediate_person"></div>
+        <div id="ss_expert_person"></div>
+    </div>
+
+    <div id="ss_business_tips">
+        <div id="ss_novice_traveler_wrapper">
+            <div id="ss_novice_packing_wrapper">
+                <div id="ss_novice_packing_title"></div>
+                <div id="ss_novice_packing_content"></div>
+            </div>
+            <div id="ss_novice_app_wrapper">
+                <div id="ss_novice_app_title"></div>
+                <div id="ss_novice_app_content">
+                    <table>
+                        <tr>
+                            <td>
+                                <img src="images/ss_app_skype.png" width="55" alt="skype">
+                                <p>Skype</p>
+                            </td>
+                            <td>
+                                <img src="images/ss_app_googe_translate.png" width="55" alt="google translate">
+                                <p>Google Translate</p>
+                            </td>
+                            <td>
+                                <img src="images/ss_app_kayak.png" width="55" alt="kayak">
+                                <p>Kayak</p>
+                            </td>
+                            <td>
+                                <img src="images/ss_app_trip.png" width="55" alt="TripAdvisor">
+                                <p>TripAdvisor</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="images/ss_app_yelp.png" width="55" alt="Yelp">
+                                <p>Yelp</p>
+                            </td>
+                            <td>
+                                <img src="images/ss_app_foursquare.png" width="55" alt="Foursquare">
+                                <p>Foursquare</p>
+                            </td>
+                            <td>
+                                <img src="images/ss_app_weather.png" width="55" alt="The Weather Channel">
+                                <p style="font-size:8px">The Weather Channel</p>
+                            </td>
+                            <td>
+                                <img src="images/ss_app_near_me.png" width="55" alt="What's Near Me">
+                                <p>What's Near Me</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="app_content" id="skype"> 
+                        <img src="images/ss_app_skype.png" alt="Skype">
+                        <h2>Skype</h2>
+                        <p>Whether you just want to stay in touch with your family or need to organize conference calls via your mobile, Skype can keep you connected wherever your job takes you.</p>
+                    </div>
+                    <div class="app_content" id="google_translate"> 
+                        <img src="images/ss_app_googe_translate.png" width="55" alt="google translate">
+                        <h2>Google Translate</h2>
+                        <p>What works well on the web works even better as an app. Translate phrases by typing into a small word box, or use the speaking option to say a phrase.</p>
+                    </div>
+                    <div class="app_content" id="kayak"> 
+                        <img src="images/ss_app_kayak.png" alt="kayak">
+                        <h2>Kayak</h2>
+                        <p>With KAYAK's mobile apps, you have everything on KAYAK.com right in your hand. Find the right flight, the perfect hotel, and even manage your itinerary or track your flight status. Our free apps are available for the iPhone, iPad, Android, Windows Mobile 7 and Nokia devices.</p>
+                    </div>
+                    <div class="app_content" id="trip_advisor"> 
+                        <img src="images/ss_app_trip.png" alt="TripAdvisor">
+                        <h2>TripAdvisor</h2>
+                        <p>TripAdvisor&reg; features reviews and advice on hotels, resorts, flights, vacation rentals, vacation packages, travel guides, and lots more.</p>
+                    </div>
+                    <div class="app_content" id="yelp"> 
+                        <img src="images/ss_app_yelp.png" alt="Yelp">
+                        <h2>Yelp</h2>
+                        <p>Yelp was founded in 2004 to help people find great local businesses like dentists, hair stylists and mechanics. Yelpers have written over 27 million local reviews.</p>
+                    </div>
+                    <div class="app_content" id="four_square"> 
+                        <img src="images/ss_app_foursquare.png" alt="Foursquare">
+                        <h2>Foursquare</h2>
+                        <p>Check into this app to see reviews from users who have gone before you, scroll through photos, and find out what the best specials are.</p>
+                    </div>
+                    <div class="app_content" id="the_weather_channel"> 
+                        <img src="images/ss_app_weather.png" alt="The Weather Channel">
+                        <h2>The Weather Channel</h2>
+                        <p>Get your weather faster, for any location you may be traveling to. Also includes alerts for severe weather.</p>
+                    </div>
+                    <div class="app_content" id="what_s_near_me"> 
+                        <img src="images/ss_app_near_me.png" alt="What's Near Me">
+                        <h2>What's Near Me</h2>
+                        <p>How many times have you had a need to find a Gas Station in the middle of a trip or to locate the nearest ATM in a city which you are new to? Find Near Me helps you to do this and much more in just a few clicks.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="ss_novice_checkin_wrapper">
+                <div id="ss_novice_checkin_title"></div>
+                <div id="ss_novice_checkin_content"></div>
+            </div>
+        </div>
+        <div id="ss_intermediate_traveler_wrapper">
+            <div id="ss_intermediate_packing_wrapper">
+                <div id="ss_intermediate_packing_title"></div>
+                <div id="ss_intermediate_packing_content"></div>
+            </div>
+            <div id="ss_intermediate_app_wrapper">
+                <div id="ss_intermediate_app_title"></div>
+                <div id="ss_intermediate_app_content">
+                    <table>
+                        <tr>
+                            <td>
+                                <img src="images/ss_app_help_call.png" width="55" alt="Help Call">
+                                <p>Help Call</p>
+                            </td>
+                            <td>
+                                <img src="images/ss_app_trip_it.png" width="55" alt="TripIt">
+                                <p>TripIt</p>
+                            </td>
+                            <td>
+                                <img src="images/ss_app_open_table.png" width="55" alt="OpenTable">
+                                <p>OpenTable</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="images/ss_app_zagat.png" width="55" alt="Zagat">
+                                <p>Zagat</p>
+                            </td>
+                            <td>
+                                <img src="images/ss_app_hotspot.png" width="55" alt="HopStop">
+                                <p>HopStop</p>
+                            </td>
+                            <td>
+                                <img src="images/ss_app_cab.png" width="55" alt="Cab4me">
+                                <p>Cab4me</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="app_content" id="help_call"> 
+                        <img src="images/ss_app_help_call.png" alt="Help Call">
+                        <h2>Help Call</h2>
+                        <p>Travel safely, wherever you go. Help Call is designed to help you to quickly place important emergency phone calls in your current country location. 126 countries supported.</p>
+                    </div>
+                    <div class="app_content" id="trip_it"> 
+                        <img src="images/ss_app_trip_it.png" alt="TripIt">
+                        <h2>TripIt</h2>
+                        <p>Organize trip details into one master online itinerary - even if arrangements are booked at multiple travel sites.</p>
+                    </div>
+                    <div class="app_content" id="open_table"> 
+                        <img src="images/ss_app_open_table.png" alt="OpenTable">
+                        <h2>OpenTable</h2>
+                        <p>Now making restaurant reservations when you are away from your computer is simple with OpenTable for Mobile Web. Find real-time table availability at over 15,000 restaurants, make free, instantly confirmed reservations, and earn dining points with each reservation.</p>
+                    </div>
+                    <div class="app_content" id="zagat"> 
+                        <img src="images/ss_app_zagat.png" alt="Zagat">
+                        <h2>Zagat</h2>
+                        <p>Based on a worldwide network of surveyors, Zagat has become the world's most trusted source to help consumers make informed decisions about restaurants, nightspots, hotels, attractions and other leisure activities.</p>
+                    </div>
+                    <div class="app_content" id="hop_stop"> 
+                        <img src="images/ss_app_hotspot.png" alt="HopStop">
+                        <h2>HopStop</h2>
+                        <p>HopStop provides door-to-door transit, walking, biking, taxi and hourly car rental directions in over 100 cities. Take HopStop everywhere you go.</p>
+                    </div>
+                    <div class="app_content" id="cab_4_me"> 
+                        <img src="images/ss_app_cab.png" alt="Cab4me">
+                        <h2>Cab4me</h2>
+                        <p>Picking your location has never been easier - with full maps integration. Add taxi ranks to cab4me with just a click from the map - vote for taxi ranks entered by other users to make sure only valid taxi ranks stay in the database.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="ss_intermediate_checkin_wrapper">
+                <div id="ss_intermediate_checkin_title"></div>
+                <div id="ss_intermediate_checkin_content">
+                    <table>
+                        <tr>
+                            <td>
+                                <img src="images/ss_app_gate_guru.png" width="55" alt="Gate Guru">
+                                <p>Gate guru</p>
+                            </td>
+                            <td>
+                                <img src="images/ss_app_aa.png" width="55" alt="American Airlines">
+                                <p style="font-size:11px">American Airlines</p>
+                            </td>
+                            <td>
+                                <img src="images/ss_app_delta.png" width="55" alt="Delta">
+                                <p>Delta</p>
+                            </td>
+                            <td>
+                                <img src="images/ss_app_jet_blue.png" width="55" alt="jetBlue">
+                                <p>jetBlue</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="images/ss_app_united.png" width="55" alt="United">
+                                <p>United</p>
+                            </td>
+                            <td>
+                                <img src="images/ss_app_airport_wifi.png" width="55" alt="Airport Wifi">
+                                <p>Airport Wifi</p>
+                            </td>
+                            <td>
+                                <img src="images/ss_app_flysmart.png" width="55" alt="Flysmart">
+                                <p>FLYSMART</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="app_content" id="gate_guru"> 
+                        <img src="images/ss_app_gate_guru.png" alt="Gate Guru">
+                        <h2>Gate Guru</h2>
+                        <p>GateGuru serves as the leading light to locate the best food, shopping and service options within any airport at the touch of a button.</p>
+                    </div>
+                    <div class="app_content" id="aa"> 
+                        <img src="images/ss_app_aa.png" alt="American Airlines">
+                        <h2>American Airlines</h2>
+                        <p>Apps from American Airlines allow users to check in for flights, save a mobile boarding pass, view terminal maps and set a parking reminder.</p>
+                    </div>
+                    <div class="app_content" id="delta"> 
+                        <img src="images/ss_app_delta.png" alt="Delta">
+                        <h2>Delta</h2>
+                        <p>The Fly Delta app turns your smartphone into a powerful tool to keep you on the go. Check in, get your boarding pass and pay for bags. You can also rebook cancelled or missed connecting flights.</p>
+                    </div>
+                    <div class="app_content" id="jet_blue"> 
+                        <img src="images/ss_app_jet_blue.png" alt="jetBlue">
+                        <h2>jetBlue</h2>
+                        <p>With JetBlue's mobile app, you can book travel, check in, and receive real-time flight updates.</p>
+                    </div>
+                    <div class="app_content" id="united"> 
+                        <img src="images/ss_app_united.png" alt="United">
+                        <h2>United</h2>
+                        <p>You can book United&reg; flights, check flight and upgrade status, view your MileagePlus&reg; account information, check in and receive a mobile boarding document and more, directly from your mobile device. Available for iPhone, iPod and Android devices.</p>
+                    </div>
+                    <div class="app_content" id="airport_wifi"> 
+                        <img src="images/ss_app_airport_wifi.png" alt="Airport Wifi">
+                        <h2>Airport Wifi</h2>
+                        <p>A complete database of over 10,000+ airports all over the world which tells you which airport has FREE wifi. You can quickly search the airports by the IATA code or by the name of the airport.</p>
+                    </div>
+                    <div class="app_content" id="fly_smart"> 
+                        <img src="images/ss_app_flysmart.png" alt="Flysmart">
+                        <h2>Flysmart</h2>
+                        <p>FlySmart allows you to track all of your flights including connections and your return trip, so you are always up to date on changes to your flight schedule, gate assignments, and baggage claim. Just enter your flight details and save, and FlySmart will track your itinerary for you.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="ss_expert_traveler_wrapper">
+            <div id="ss_expert_packing_wrapper">
+                <div id="ss_expert_packing_title"></div>
+                <div id="ss_expert_packing_content"></div>
+            </div>
+            <div id="ss_expert_app_wrapper">
+                <div id="ss_expert_app_title"></div>
+                <div id="ss_expert_app_content">
+                    <table>
+                        <tr>
+                            <td>
+                                <img src="images/ss_app_vocre.png" width="55" alt="Vocre">
+                                <p>Vocre</p>
+                            </td>
+                            <td>
+                                <img src="images/ss_app_oanda.png" width="55" alt="OANDA">
+                                <p>OANDA</p>
+                            </td>
+                            <td>
+                                <img src="images/ss_app_evernote.png" width="55" alt="Evernote">
+                                <p>Evernote</p>
+                            </td>
+                            <td>
+                                <img src="images/ss_app_where_to_wee.png" width="55" alt="Where to Wee">
+                                <p>Where to Wee</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="images/ss_app_all_subway.png" width="55" alt="AllSubway">
+                                <p>AllSubway</p>
+                            </td>
+                            <td>
+                                <img src="images/ss_app_trip_lingo.png" width="55" alt="TripLingo">
+                                <p>TripLingo</p>
+                            </td>
+                            <td>
+                                <img src="images/ss_app_seat_guru.png" width="55" alt="SeatGuru">
+                                <p>SeatGuru</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="app_content" id="vocre"> 
+                        <img src="images/ss_app_vocre.png" alt="Vocre">
+                        <h2>Vocre</h2>
+                        <p>Vocre is a TechCrunch Disrupt &amp; LAUNCH Festival award winning app that uses your voice to communicate with others&mdash;no matter the language they speak&mdash;making multi-language conversations possible, in real-time.</p>
+                    </div>
+                    <div class="app_content" id="oanda"> 
+                        <img src="images/ss_app_oanda.png" alt="OANDA">
+                        <h2>OANDA</h2>
+                        <p>Currency Converter: OANDA provides mobile converters and mobile trading interfaces. The converters use OANDA Rate&reg; data&mdash;daily filtered rates for more than 190 currencies and four metals, based on information supplied by leading market data contributors.</p>
+                    </div>
+                    <div class="app_content" id="ever_note"> 
+                        <img src="images/ss_app_evernote.png" alt="Evernote">
+                        <h2>Evernote</h2>
+                        <p>Take all of your important business notes with you on your mobile device. You can capture anything, access anywhere and find things fast, wherever your job takes you.</p>
+                    </div>
+                    <div class="app_content" id="where_to_wee"> 
+                        <img src="images/ss_app_where_to_wee.png" alt="Where to Wee">
+                        <h2>Where to Wee</h2>
+                        <p>Where to Wee is an application that helps you find and rate restrooms worldwide. Whether it's a road-trip that never seems to end, or an endless line in front of the women's restroom: when you gotta go, you gotta know.</p>
+                    </div>
+                    <div class="app_content" id="all_subway"> 
+                        <img src="images/ss_app_all_subway.png" alt="AllSubway">
+                        <h2>AllSubway</h2>
+                        <p>The first and the cheapest database application of the most important world cities subway maps. No business traveler should be without!</p>
+                    </div>
+                    <div class="app_content" id="trip_lingo"> 
+                        <img src="images/ss_app_trip_lingo.png" alt="TripLingo">
+                        <h2>TripLingo</h2>
+                        <p>Essential for frequent travelers. Build rapport with locals and overcome the frustrations of the language barrier with TripLingo. Over 1000 phrases, a built-in dictionary, flashcards and an intuitive design make it easy to dive into the local culture. No internet required.</p>
+                    </div>
+                    <div class="app_content" id="seat_guru"> 
+                        <img src="images/ss_app_seat_guru.png" alt="SeatGuru">
+                        <h2>SeatGuru</h2>
+                        <p>Reviews and recommendations are now even easier to access when you are on the go. Optimized for your iPhone and iPod Touch, SeatGuru provides you with seat maps and insights from over 35,000 flier reviews, right at your fingertips. Now even at the airport, you can always find the best seat before you fly.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="ss_expert_checkin_wrapper">
+                <div id="ss_expert_checkin_title"></div>
+                <div id="ss_expert_checkin_content">
+                    <table>
+                        <tr>
+                            <td>
+                                <img src="images/ss_app_my_tsa.png" width="55" alt="My TSA">
+                                <p>My TSA</p>
+                            </td>
+                            <td>
+                                <img src="images/ss_app_flight_track.png" width="55" alt="Flight Track">
+                                <p>Flight Track</p>
+                            </td>
+                            <td>
+                                <img src="images/ss_app_flight_update_pro.png" width="55" alt="Flight Update Pro">
+                                <p>Flight Update Pro</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="app_content" id="my_tsa"> 
+                        <img src="images/ss_app_my_tsa.png" width="100" alt="My TSA">
+                        <h2>My TSA</h2>
+                        <p>Users can type in an item they plan to bring on a trip to find out if it is permitted or prohibited, see what airports are experiencing general delays, share their wait time and see what wait times other passengers have posted for U.S. airports, and travel tips.</p>
+                    </div>
+                    <div class="app_content" id="flight_track"> 
+                        <img src="images/ss_app_flight_track.png" width="100" alt="Flight Track">
+                        <h2>Flight Track</h2>
+                        <p>Manage every aspect of your domestic and international flights with real-time updates and beautiful, zoomable maps. And you can do it offline! We'll even update you on gates, delays and cancellations so you can book an alternate flight.</p>
+                    </div>
+                    <div class="app_content" id="flight_update_pro"> 
+                        <img src="images/ss_app_flight_update_pro.png" width="100" alt="Flight Update Pro">
+                        <h2>Flight Update Pro</h2>
+                        <p>This app is ideal for business travelers because it keeps track of your expenses, allows you to quickly email your itinerary and a message using the Quick Email and Quick SMS feature, and contains worldwide coverage of more than 400 airports.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="ss_bottom_nav">
+            <div id="ss_bottom_back_to_all"></div>
+            <div id="ss_bottom_packing_tips"></div>
+            <div id="ss_bottom_apps"></div>
+            <div id="ss_bottom_check_in_tips"></div>
+        </div>
+        <div id="ss_footer_dots"></div>
+    </div>
+</div>
+
+</body>
+</html>

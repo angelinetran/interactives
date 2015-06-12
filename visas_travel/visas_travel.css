@@ -1,0 +1,700 @@
+/* CSS Document */
+
+/* Reset -- bas3ic*/
+#background-frame img{
+    width: 2000px;
+}
+#ss_extra_content{
+    width:800px;
+    margin: 0 0 0 8px;
+}
+#background-frame{
+    top: 35px;
+        background-position: center;
+        position: absolute;
+}
+
+#wide-content h1{
+    margin-top: 20px;
+}
+.wp_plus_one_button{
+    display: none
+}
+#header{
+       position: relative;
+}
+
+
+#wide-content{
+    background: none;
+}
+
+#content, #wide-content{
+    background: none;
+    padding: 0;
+    top:0;
+}
+
+.post img{
+    border:none;
+}
+
+#content, #wide-content{
+    color: #000;
+}
+
+.container{
+    padding-bottom: 10px !important;
+} 
+
+#ss_extra_content ul{
+    color: #000 !important;
+    list-style: disc;
+    margin: 0 0 1.9em 0;
+}
+
+#ss_extra_content p{
+    overflow: inherit;
+}
+
+.video_lightbox_anchor_image{
+    padding: 0 0 0 10px;
+}
+
+#content {
+    color: #000;
+}
+#content p{
+    line-height:16px;
+    overflow:visible;
+}
+
+body, ul{ padding: 0; margin: 0; color:#000; }
+
+#ss_visas_wrapper {
+    position: relative;
+    width: 800px; height:776px;
+    border: solid 8px #eee;
+    margin:150px 0 20px 0;
+}
+
+#ss_visas_wrapper div { clear: both; }
+
+#ss_visas_container {   
+    position:absolute;       
+    background: url(" images/visas_background.jpg") 0 0 no-repeat;
+    width: 800px; min-height: 776px;
+}
+
+
+#ss_visas_container a{
+    color:#382C32;
+    font-weight: normal;
+}
+
+#ss_visas_container a:hover{
+    color:#AB909D;
+}
+
+#ss_visa_content{
+    position:absolute;
+    top:161px;
+    height:470px;
+}
+
+#ss_header {
+    position: absolute;
+    left: 0px;
+    width: 800px; 
+    height: 161px;
+    top:0px;
+}
+
+#ss_menu_button{
+    position:absolute;
+    top:110px;
+    left:10px;
+}
+
+#ss_visa_footnote {
+    position:absolute;
+    width: 800px; 
+    height: 145px;
+    background: url(" images/ss_visa_bottom_note_2.png") no-repeat;
+    display: inline;
+    float: left;
+    clear: both;
+    top:631px;
+}
+
+
+#ss_visa_footnote li {
+    list-style-type: none;              
+    text-decoration: underline;
+    width: 200px;
+}
+#ss_visa_footnote li a {
+    color: #fff;
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 11px;    
+}
+
+#ss_visa_footnote li a:hover { color: gray; }
+
+.ss_abs_rel { position: relative; }
+
+#ss_visa_nav li {
+    display: inline;
+    list-style-type: none;
+    position:absolute;
+}
+
+.special ul li{
+    list-style-type: disc
+}
+
+
+#ss_visas_nav_visit {
+    background: url( images/ss_visa_visit.png) no-repeat;
+    width:170px;
+    height: 177px;
+    left:25px;
+    top:150px;
+}
+#ss_visas_nav_visit:hover {
+    background: url( images/ss_visa_visit_hover.png) no-repeat;
+}
+#ss_visas_nav_visit_label {
+    top: 310px;
+    left:25px;
+    
+}
+#ss_visas_nav_study {
+    background: url( images/ss_visa_study.png) no-repeat;
+    width:170px;
+    height: 177px;
+    left: 220px;
+    top:150px;
+}
+#ss_visas_nav_study:hover {
+    background: url( images/ss_visa_study_hover.png) no-repeat;
+}
+#ss_visas_nav_study_label {
+    top: 310px;
+    left: 225px;
+}
+#ss_visas_nav_work {
+    background: url( images/ss_visa_work.png) no-repeat;
+    width:170px;
+    height: 177px;
+    left: 410px;
+    top:150px;
+}
+#ss_visas_nav_work:hover {
+    background: url( images/ss_visa_work_hover.png) no-repeat;
+}
+#ss_visas_nav_work_label {
+    top: 310px;
+    left: 410px;
+}
+#ss_visas_nav_immigrate {
+    background: url( images/ss_visa_immigrate.png) no-repeat;
+    width:170px;
+    height: 177px;
+    top:150px;
+    left: 600px;
+}
+
+#ss_visas_nav_immigrate:hover {
+    background: url( images/ss_visa_immigrate_hover.png) no-repeat;
+}
+#ss_visas_nav_immigrate_label {
+    top: 310px;
+    left: 600px;
+}
+
+#ss_visit_select_student, #ss_visit_select_exchange{
+    position:absolute;
+    top:300px;
+}
+
+
+#ss_visit_select_tourism{
+    left: 475px;
+}
+
+#ss_visit_select_student{
+    left: 180px;
+}
+
+#ss_visit_select_exchange{
+    left: 475px;
+}
+#ss_visas_container p,#ss_visas_container li{
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0 0 5px 0;
+    font-family: Arial, Verdana, sans-serif;
+}
+#ss_visas_container ul ul li{
+    margin-left: 15px;
+}
+
+#ss_visas_container h3{
+    font-size: 15px;
+    font-family: Arial, Verdana, sans-serif;
+    margin-bottom:0;
+}
+
+#ss_visa_visit_el_container,
+#ss_visa_visit_how_container,
+#ss_visa_visit_cost_container,
+#ss_visa_study_student_el_container,
+#ss_visa_study_student_how_container,
+#ss_visa_study_student_cost_container,
+#ss_visa_study_exchange_el_container,
+#ss_visa_study_exchange_how_container,
+#ss_visa_study_exchange_cost_container,
+#ss_visa_work_el_container,
+#ss_visa_work_how_container,
+#ss_visa_work_cost_container,
+#ss_visa_immigrate_el_container,
+#ss_visa_immigrate_how_container,
+#ss_visa_immigrate_cost_container{
+    position: absolute;
+}
+
+#ss_sub_title_el, #ss_sub_title_how{
+    position: relative;
+    bottom:30px;
+    left:195px;
+}
+
+#ss_sub_title_cost{
+    position: relative;
+    bottom:30px;
+    left:235px;
+}
+
+#ss_visa_visit_el_2,
+#ss_visa_visit_how_2,
+#ss_visa_visit_cost_2,
+#ss_visa_study_student_el_2,
+#ss_visa_study_student_how_2,
+#ss_visa_study_student_cost_2,
+#ss_visa_study_exchange_el_2,
+#ss_visa_study_exchange_how_2,
+#ss_visa_study_exchange_cost_2,
+#ss_visa_work_el_2,
+#ss_visa_work_how_2,
+#ss_visa_work_cost_2,
+#ss_visa_immigrate_el_2,
+#ss_visa_immigrate_how_2,
+#ss_visa_immigrate_cost_2{
+    position: absolute;
+    width: 340px;
+    padding: 25px;
+    top: 40px;
+    left: 15px;
+
+}
+
+#ss_visa_visit_el_2 p, #ss_visa_visit_el_2 li,
+#ss_visa_visit_how_2 p, #ss_visa_visit_how_2 li,
+#ss_visa_visit_cost_2 p, #ss_visa_visit_cost_2 li,
+#ss_visa_study_student_el_2 p, #ss_visa_study_student_el_2 li,
+#ss_visa_study_student_how_2 p, #ss_visa_study_student_how_2 li,
+#ss_visa_study_student_cost_2 p, #ss_visa_study_student_cost_2 li,
+#ss_visa_study_exchange_el_2 p, #ss_visa_study_exchange_el_2 li,
+#ss_visa_study_exchange_how_2 p, #ss_visa_study_exchange_how_2 li,
+#ss_visa_study_exchange_cost_2 p, #ss_visa_study_exchange_cost_2 li,
+#ss_visa_work_el_2 p, #ss_visa_work_el_2 li,
+#ss_visa_work_how_2 p, #ss_visa_work_how_2 li,
+#ss_visa_work_cost_2 p, #ss_visa_work_cost_2 li,
+#ss_visa_immigrate_el_2 p, #ss_visa_immigrate_el_2 li,
+#ss_visa_immigrate_how_2 p, #ss_visa_immigrate_how_2 li,
+#ss_visa_immigrate_cost_2 p #ss_visa_immigrate_cost_2 li{
+    font-size: 12px;
+    line-height: 16px;
+    overflow : hidden;
+}
+#ss_visa_visit_el,
+#ss_visa_visit_cost,
+#ss_visa_visit_how,
+#ss_visa_study_student_el,
+#ss_visa_study_student_cost,
+#ss_visa_study_student_how,
+#ss_visa_study_exchange_el,
+#ss_visa_study_exchange_cost,
+#ss_visa_study_exchange_how,
+#ss_visa_work_el,
+#ss_visa_work_cost,
+#ss_visa_work_how,
+#ss_visa_immigrate_el,
+#ss_visa_immigrate_cost,
+#ss_visa_immigrate_how{
+    position: absolute;
+    width: 350px;
+    left: 410px;
+    top: -110px;
+    padding: 5px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border: 1px solid #b6b8a2;
+    overflow : hidden;
+}
+
+#ss_visa_visit_el p:last-child,
+#ss_visa_visit_cost p:last-child,
+#ss_visa_study_student_el p:last-child,
+#ss_visa_study_student_cost p:last-child,
+#ss_visa_study_exchange_el p:last-child,
+#ss_visa_study_exchange_cost p:last-child,
+#ss_visa_work_el p:last-child,
+#ss_visa_work_cost p:last-child,
+#ss_visa_immigrate_el p:last-child,
+#ss_visa_immigrate_cost p:last-child{
+    position: absolute;
+    width: 350px;
+    left: 410px;
+    top: -110px;
+    padding: 5px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border: 1px solid #b6b8a2;
+    overflow : hidden;
+}
+
+#ss_visa_visit_how,
+#ss_visa_study_student_how,
+#ss_visa_study_exchange_how,
+#ss_visa_work_how,
+#ss_visa_immigrate_how{
+    position: absolute;
+    width: 362px;
+    left: 410px;
+    top: -110px;
+    overflow : hidden;
+}
+
+
+#ss_visa_visit_el div,
+#ss_visa_visit_how div,
+#ss_visa_visit_cost div,
+#ss_visa_study_student_el div,
+#ss_visa_study_student_how div,
+#ss_visa_study_student_cost div,
+#ss_visa_study_exchange_el div,
+#ss_visa_study_exchange_how div,
+#ss_visa_study_exchange_cost div,
+#ss_visa_work_el div,
+#ss_visa_work_how div,
+#ss_visa_work_cost div,
+#ss_visa_immigrate_el div,
+#ss_visa_immigrate_how div,
+#ss_visa_immigrate_cost div{
+    left: 100%;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    padding:10px;
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(201, 203, 187);
+    /* RGBa with 0.6 opacity */
+    background: rgba(153, 154, 139, 0.4);
+    overflow : hidden;
+}
+
+#ss_el, #ss_how, #ss_cost, #ss_up, #ss_down{
+    position:absolute;
+    top:0px;
+}
+
+#ss_el{
+    left:0px
+}
+
+#ss_how{
+    left:71px;
+}
+
+#ss_cost{
+    left:142px;
+}
+#ss_up{
+    left:213px;
+}
+#ss_down{
+    left:284px;
+}
+
+#ss_visa_buttons{
+    position:absolute;
+    width: 380px;
+    height: 68px;
+    left: 415px;
+    top: 400px;
+}
+
+#ss_visa_nav_buttons{
+    list-style:none;
+}
+
+#ss_label{
+    position:absolute;
+    width:170px;
+    height:100px;
+    bottom:77px;
+    left:195px;
+    overflow : hidden;
+}
+
+#ss_links{
+    position:absolute;
+    width:200px;
+    left:550px;
+    top:37px;
+    overflow : hidden;
+    z-index:2;
+}
+
+#ss_black_bg {
+    position: absolute;
+    background:url( images/ss_visa_footer_bg.png);
+    width:736px;
+    height:99px;
+    top:20px;
+    left:34px;
+    z-index: 1;
+    overflow : hidden;
+}
+
+#ss_note{
+    background: url( images/ss_note.png);
+    width:481px;
+    height:65px;
+    position: absolute;
+    top:36px;
+    left:65px;
+    z-index: 1;
+    overflow : hidden;
+}
+
+
+/* #ss_visasNav_immigrate { top: 200px; left: 300px; } */
+        
+#ss_visa_sources {
+    width: 68px; height: 68px;
+    position: absolute;
+    left: 730px;
+    top: 35px;
+    overflow : hidden;
+    z-index: 2;
+}
+
+#ss_sources{
+    position: absolute;
+    top:50px;
+    left:80px;
+    width:300px;
+    height:70px;
+    overflow : hidden;
+    z-index: 2;
+}
+#ss_sources li{
+    width:400px;
+}
+
+#ss_sources_2{
+    position: absolute;
+    top:50px;
+    left:400px;
+    width:300px;
+    height:70px;
+    overflow : hidden;
+    z-index: 2;
+}
+#ss_sources_2 li{
+    width:400px;
+    overflow : hidden;
+}
+
+#ss_visa_sources:hover { cursor: pointer; }
+
+#ss_visa_selectOne {
+    position: relative;
+    min-height: 140px;
+    overflow : hidden;
+}
+
+#ss_visit_select {
+    position: absolute;
+    left: 320px; top: 235px;
+    overflow : hidden;
+}
+
+ul{
+    padding-left:15px;
+    overflow : hidden;
+}
+p{ 
+    margin-top:5px;
+    overflow : hidden;
+}
+h3{
+    margin-top:5px;
+    overflow : hidden;
+}
+
+
+
+
+.btn {
+    display: inline-block;
+    *display: inline;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    *margin-left: .3em;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    *background-color: #e6e6e6;
+    background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+    background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+    background-repeat: repeat-x;
+    border: 1px solid #bbbbbb;
+    *border: 0;
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-bottom-color: #a2a2a2;
+    -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+            border-radius: 4px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    *zoom: 1;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+        -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    height: 35px;
+
+}
+
+.btn:hover,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled] {
+  color: #333333;
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
+}
+
+.btn:active,
+.btn.active {
+  background-color: #cccccc \9;
+}
+
+.btn:first-child {
+  *margin-left: 0;
+}
+
+.btn:hover {
+  color: #333333;
+  text-decoration: none;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+     -moz-transition: background-position 0.1s linear;
+       -o-transition: background-position 0.1s linear;
+          transition: background-position 0.1s linear;
+}
+
+.btn:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.btn.active,
+.btn:active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.btn-info {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #49afcd;
+  *background-color: #2f96b4;
+  background-image: -moz-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5bc0de), to(#2f96b4));
+  background-image: -webkit-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: -o-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: linear-gradient(to bottom, #5bc0de, #2f96b4);
+  background-repeat: repeat-x;
+  border-color: #2f96b4 #2f96b4 #1f6377;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff2f96b4', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-info:hover,
+.btn-info:active,
+.btn-info.active,
+.btn-info.disabled,
+.btn-info[disabled] {
+  color: #ffffff;
+  background-color: #2f96b4;
+  *background-color: #2a85a0;
+}
+
+.btn-info:active,
+.btn-info.active {
+  background-color: #24748c \9;
+}
+
+.btn-primary.active,
+.btn-warning.active,
+.btn-danger.active,
+.btn-success.active,
+.btn-info.active,
+.btn-inverse.active {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+#background-frame{
+	top: 55px
+}
+
+#wide-content{
+	background: none;
+}
+
+#content, #wide-content{
+	background: none;
+	padding: 0;
+	top:0;
+}

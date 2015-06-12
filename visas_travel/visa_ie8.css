@@ -1,0 +1,33 @@
+#ss_visa_visit_how,
+#ss_visa_study_student_how,
+#ss_visa_study_exchange_how,
+#ss_visa_work_how,
+#ss_visa_immigrate_how{
+    top: -130px;
+}
+
+#ss_visa_visit_el,
+#ss_visa_visit_cost,
+#ss_visa_study_student_el,
+#ss_visa_study_student_cost,
+#ss_visa_study_exchange_el,
+#ss_visa_study_exchange_cost,
+#ss_visa_work_el,
+#ss_visa_work_cost,
+#ss_visa_immigrate_el,
+#ss_visa_immigrate_cost{
+    top: -130px;
+}
+
+
+#ss_visa_visit_how_2,
+#ss_visa_study_student_how_2,
+#ss_visa_study_exchange_how_2,
+#ss_visa_work_how_2,
+#ss_visa_immigrate_how_2{
+    top: 30px;
+}
+
+#ss_label{
+	top:-100px;
+}

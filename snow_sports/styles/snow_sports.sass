@@ -1,0 +1,178 @@
+$green: #53c2be
+$dark-green: #3b8e86
+
+.ss_snow_sports
+	position: relative
+	width: 670px
+	height: 600px
+	background: url(../images/ss_ss_bg.png)
+
+	div
+		position: absolute
+	#overlay
+		position: absolute
+		width: 670px
+		height: 600px
+		background: url(../images/ss_ss_overlay.png)
+		z-index: 10
+		cursor: pointer
+	.main_nav
+		cursor: pointer
+	.ski
+		width: 155px
+		height: 296px
+		top: 210px
+		left: 60px
+		background: url(../images/ss_ss_nav_ski.png) no-repeat
+	.sled
+		width: 304px
+		height: 159px
+		top: 340px
+		left: 220px
+		background: url(../images/ss_ss_nav_sled.png) no-repeat 
+	.board
+		width: 65px
+		height: 210px
+		top: 270px
+		left: 560px
+		background: url(../images/ss_ss_nav_snow_board.png) no-repeat
+	.modal
+		width: 646px
+		height: 367px
+		top: 180px
+		left: 10px
+		background: url(../images/ss_ss_content_bg.png) no-repeat
+		display: none
+	.close
+		width: 27px
+		height: 34px
+		top: 20px
+		left: 600px
+		background: url(../images/ss_ss_x.png) no-repeat
+		cursor: pointer
+		z-index: 10
+	.ski_content,.sled_content,.board_content
+		width: 610px
+		height: 320px
+		top: 30px
+		left: 20px
+	.ball
+		position: relative
+		float: left
+		width: 39px
+		height: 37px
+		background: url(../images/ss_ss_balls.png) no-repeat
+		background-position: -42px 0px
+		cursor: pointer
+		margin: auto
+	.ball:hover
+		background: url(../images/ss_ss_balls.png) no-repeat
+		background-position: 0px 0px
+	.ball.active 
+		background: url(../images/ss_ss_balls.png) no-repeat
+		background-position: 0px 0px
+	.left_arrow, .right_arrow
+		position: relative
+		float: left
+		background: url(../images/ss_ss_arrows.png) no-repeat
+		width: 34px
+		height: 34px
+		margin: 0 5px
+		cursor: pointer
+	.left_arrow
+		background-position: 0px, 0px
+	.right_arrow
+		background-position: -40px, 0px
+	.right_nav
+	.where .nav
+		position: relative
+		top: 10px
+		width: 600px
+		left: 95px
+	.what
+		text-transform: lowercase
+	.what, .tips
+		display: none
+	.where, .what, .tips
+		top: 40px
+		position: relative
+		ul
+			padding: 0px 0px 0 20px
+			display: none
+		ul li
+			margin: 15px 0 0 0
+			list-style: none
+			font:
+				size: 15px
+				family: Helvetica, Arial, sans-serif	
+		img 
+			position: relative
+			top: 4px
+			padding: 0 10px 0 0
+		p
+			margin: 5px 0 0 0
+		ol
+			font:
+				size: 14px
+				family: Helvetica, Arial, sans-serif
+				weight: bolder
+		ol li
+			margin: 0 0 0 0
+		ol li p
+			font:
+				size: 14px
+				family: Helvetica, Arial, sans-serif
+				weight: normal
+			line-height: 20px
+			margin: 0
+	.where
+		li:first-child
+			font:
+				size: 20px
+				weight: bold
+	.where span, .what span, .tips span
+		font:
+			weight: bolder
+			size: 18px
+	h2
+		color: $green
+		font: 
+			family: Helvetica, Arial, sans-serif
+			size: 30px
+		text:
+			shadow: 1px 1px 1px $dark-green
+			transform: uppercase
+			align: center
+		padding: 0 0 10px 0
+		margin: 0
+		letter-spacing: 4px
+	.show
+		display: block !important
+	.modal_nav
+		ul
+			padding: 0
+			margin: 10px 0 0 0
+		ul li 
+			display: inline
+			margin: 0 0 0 44px
+			padding: 10px
+			color: $green
+			cursor: pointer
+			font:
+				size: 20px
+				family: Helvetica, Arial, sans-serif
+				weight: bolder
+			text-shadow: 1px 1px 1px $dark-green
+		ul li:hover
+			background: $dark-green
+			color: #fff
+		li.active
+			background: $dark-green
+			color: #fff
+		
+
+
+
+
+
+

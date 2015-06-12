@@ -1,0 +1,394 @@
+/* line 1, ../../app/styles/ss_spring_break.sass */
+#ss_sb {
+  position: relative;
+  width: 800px;
+  height: 531px;
+  margin: auto;
+  font-family: Gotham, Helvetica, Arial, serif;
+  color: white;
+  padding-bottom: 20px
+}
+/* line 10, ../../app/styles/ss_spring_break.sass */
+#ss_sb > div {
+  width: 800px;
+  height: 531px;
+}
+/* line 13, ../../app/styles/ss_spring_break.sass */
+#ss_sb h3 {
+  padding: 0;
+  margin: 5px 0 0 0;
+  font-size: 38px;
+  line-height: 38px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  width: 522px;
+  background: none;
+  color: #fff;
+}
+/* line 22, ../../app/styles/ss_spring_break.sass */
+#ss_sb h3 span {
+  font-size: 40px;
+}
+/* line 24, ../../app/styles/ss_spring_break.sass */
+#ss_sb h5 {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width: 522px;
+  font-size: 18px;
+  line-height: 18px;
+  display: none;
+  background: none;
+  color: #fff;
+}
+/* line 31, ../../app/styles/ss_spring_break.sass */
+#ss_sb h6 {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  font-weight: lighter;
+  background: none;
+  color: #fff;
+  line-height: 12px;
+}
+/* line 36, ../../app/styles/ss_spring_break.sass */
+#ss_sb p {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 0;
+  line-height: 19px;
+  margin: 0;
+}
+/* line 44, ../../app/styles/ss_spring_break.sass */
+#ss_sb a {
+  color: white;
+}
+/* line 46, ../../app/styles/ss_spring_break.sass */
+#ss_sb a:hover {
+  text-decoration: none;
+}
+/* line 48, ../../app/styles/ss_spring_break.sass */
+#ss_sb .box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 522px;
+  height: 410px;
+  overflow: hidden;
+  z-index: 20;
+  display: none;
+}
+/* line 57, ../../app/styles/ss_spring_break.sass */
+#ss_sb .slider {
+  position: absolute;
+  top: 100px;
+  width: 100000px;
+  height: 247px;
+}
+/* line 62, ../../app/styles/ss_spring_break.sass */
+#ss_sb .slider_nav {
+  position: absolute;
+  top: 360px;
+  left: 300px;
+  width: 210px;
+  height: 27px;
+  cursor: pointer;
+  z-index: 30;
+  display: none;
+}
+/* line 71, ../../app/styles/ss_spring_break.sass */
+#ss_sb .slider_nav div {
+  width: 92px;
+  height: 27px;
+  float: left;
+}
+/* line 75, ../../app/styles/ss_spring_break.sass */
+#ss_sb .prev {
+  background: url(../images/sub-nav-sprite.png) no-repeat;
+  background-position: 0 0px;
+}
+/* line 78, ../../app/styles/ss_spring_break.sass */
+#ss_sb .next {
+  background: url(../images/sub-nav-sprite.png) no-repeat;
+  background-position: -92px 0px;
+}
+/* line 81, ../../app/styles/ss_spring_break.sass */
+#ss_sb .prev:hover {
+  background-position: 0 -27px;
+}
+/* line 83, ../../app/styles/ss_spring_break.sass */
+#ss_sb .next:hover {
+  background-position: -92px -27px;
+}
+/* line 85, ../../app/styles/ss_spring_break.sass */
+#ss_sb .content {
+  float: left;
+  padding: 5px 20px 0 20px;
+  width: 482px;
+  height: 210px;
+}
+/* line 90, ../../app/styles/ss_spring_break.sass */
+#ss_sb .content img {
+  margin: auto;
+  display: block;
+}
+/* line 93, ../../app/styles/ss_spring_break.sass */
+#ss_sb .content p {
+  position: absolute;
+  width: 482px;
+  bottom: 0;
+}
+/* line 97, ../../app/styles/ss_spring_break.sass */
+#ss_sb .show {
+  display: block !important;
+}
+/* line 100, ../../app/styles/ss_spring_break.sass */
+#ss_sb .main {
+  position: absolute;
+  z-index: 10;
+}
+/* line 103, ../../app/styles/ss_spring_break.sass */
+#ss_sb .where {
+  background: url(../images/bgrnd-where-to-go.png);
+  display: none;
+}
+/* line 106, ../../app/styles/ss_spring_break.sass */
+#ss_sb .travel {
+  background: url(../images/bgrnd-affordable-travel.png);
+  display: none;
+}
+/* line 109, ../../app/styles/ss_spring_break.sass */
+#ss_sb .risks {
+  background: url(../images/bgrnd-risks-recommendations.png);
+  display: none;
+}
+/* line 114, ../../app/styles/ss_spring_break.sass */
+#ss_sb .before {
+  background: url(../images/bgrnd-before-you-go.png);
+  display: none;
+}
+/* line 118, ../../app/styles/ss_spring_break.sass */
+#ss_sb .home {
+  position: absolute;
+  top: 454px;
+  left: 60px;
+  width: 50px;
+  height: 50px;
+  background: url(../images/main-nav-sprite.png);
+  background-position: 0px 0px;
+  cursor: pointer;
+  z-index: 20;
+  display: none;
+}
+/* line 129, ../../app/styles/ss_spring_break.sass */
+#ss_sb .home:hover {
+  background-position: 0px -74px;
+}
+/* line 132, ../../app/styles/ss_spring_break.sass */
+#ss_sb .nav {
+  position: absolute;
+  top: 454px;
+  left: 556px;
+  width: 216px;
+  height: 50px;
+  z-index: 20;
+}
+/* line 140, ../../app/styles/ss_spring_break.sass */
+#ss_sb .nav > div {
+  width: 50px;
+  height: 50px;
+  margin: 0 4px 0 0;
+  background: url(../images/main-nav-sprite.png);
+  float: left;
+  cursor: pointer;
+}
+/* line 148, ../../app/styles/ss_spring_break.sass */
+#ss_sb .nav .where_nav:hover {
+  background-position: -54px -74px;
+}
+/* line 150, ../../app/styles/ss_spring_break.sass */
+#ss_sb .nav .travel_nav:hover {
+  background-position: -108px -74px;
+}
+/* line 152, ../../app/styles/ss_spring_break.sass */
+#ss_sb .nav .risks_nav:hover {
+  background-position: -162px -74px;
+}
+/* line 154, ../../app/styles/ss_spring_break.sass */
+#ss_sb .nav .before_nav:hover {
+  background-position: -216px -74px;
+}
+/* line 156, ../../app/styles/ss_spring_break.sass */
+#ss_sb .nav .where_nav {
+  background-position: -54px 0px;
+}
+/* line 158, ../../app/styles/ss_spring_break.sass */
+#ss_sb .nav .travel_nav {
+  background-position: -108px 0px;
+}
+/* line 160, ../../app/styles/ss_spring_break.sass */
+#ss_sb .nav .risks_nav {
+  background-position: -162px 0px;
+}
+/* line 162, ../../app/styles/ss_spring_break.sass */
+#ss_sb .nav .before_nav {
+  background-position: -216px 0px;
+}
+/* line 164, ../../app/styles/ss_spring_break.sass */
+#ss_sb .nav .active {
+  background-position-y: -74px;
+}
+/* line 167, ../../app/styles/ss_spring_break.sass */
+#ss_sb .word_nav {
+  position: absolute;
+  width: 215px;
+  height: 20px;
+  top: 434px;
+  left: 556px;
+  z-index: 20;
+}
+/* line 175, ../../app/styles/ss_spring_break.sass */
+#ss_sb .word_nav h6 {
+  display: none;
+}
+/* line 177, ../../app/styles/ss_spring_break.sass */
+#ss_sb .home_h {
+  position: absolute;
+  width: 215px;
+  height: 20px;
+  top: 434px;
+  left: 62px;
+  z-index: 20;
+  display: none;
+}
+/* line 186, ../../app/styles/ss_spring_break.sass */
+#ss_sb .splash {
+  background: url(../images/surviving-spring-break-01.png);
+  z-index: 0;
+}
+
+
+.btn {
+    display: inline-block;
+    *display: inline;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    *margin-left: .3em;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    *background-color: #e6e6e6;
+    background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+    background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+    background-repeat: repeat-x;
+    border: 1px solid #bbbbbb;
+    *border: 0;
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-bottom-color: #a2a2a2;
+    -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+            border-radius: 4px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    *zoom: 1;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+        -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    height: 35px;
+
+}
+
+.btn:hover,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled] {
+  color: #333333;
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
+}
+
+.btn:active,
+.btn.active {
+  background-color: #cccccc \9;
+}
+
+.btn:first-child {
+  *margin-left: 0;
+}
+
+.btn:hover {
+  color: #333333;
+  text-decoration: none;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+     -moz-transition: background-position 0.1s linear;
+       -o-transition: background-position 0.1s linear;
+          transition: background-position 0.1s linear;
+}
+
+.btn:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.btn.active,
+.btn:active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.btn-info {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #49afcd;
+  *background-color: #2f96b4;
+  background-image: -moz-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5bc0de), to(#2f96b4));
+  background-image: -webkit-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: -o-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: linear-gradient(to bottom, #5bc0de, #2f96b4);
+  background-repeat: repeat-x;
+  border-color: #2f96b4 #2f96b4 #1f6377;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff2f96b4', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-info:hover,
+.btn-info:active,
+.btn-info.active,
+.btn-info.disabled,
+.btn-info[disabled] {
+  color: #ffffff;
+  background-color: #2f96b4;
+  *background-color: #2a85a0;
+}
+
+.btn-info:active,
+.btn-info.active {
+  background-color: #24748c \9;
+}
+
+.btn-primary.active,
+.btn-warning.active,
+.btn-danger.active,
+.btn-success.active,
+.btn-info.active,
+.btn-inverse.active {
+  color: rgba(255, 255, 255, 0.75);
+}
+

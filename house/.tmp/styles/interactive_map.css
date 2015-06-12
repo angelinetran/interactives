@@ -1,0 +1,374 @@
+/* line 1, ../../app/styles/interactive_map.sass */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 4, ../../app/styles/interactive_map.sass */
+.olshan_wrapper {
+  position: relative;
+  margin: auto;
+  width: 481px;
+  height: 456px;
+  overflow: hidden;
+}
+/* line 10, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .content {
+  position: absolute;
+  width: 481px;
+  height: 912px;
+  background: url(../images/background.png) top left no-repeat;
+}
+/* line 15, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .basement {
+  position: absolute;
+  background: url(../images/sprite.png);
+  background-position: 0 -555px;
+  width: 449px;
+  height: 94px;
+  top: 345px;
+  left: 15px;
+  z-index: 100;
+}
+/* line 25, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .numbers > div {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: url(../images/sprite.png);
+  z-index: 200;
+  cursor: pointer;
+}
+/* line 32, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .numbers .one {
+  background-position: 0 -1237px;
+  width: 13px;
+  height: 13px;
+  left: 39px;
+  top: 173px;
+}
+/* line 38, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .numbers .two {
+  background-position: 0 -1489px;
+  width: 13px;
+  height: 13px;
+  left: 126px;
+  top: 224px;
+}
+/* line 44, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .numbers .three {
+  background-position: 0 -1426px;
+  width: 13px;
+  height: 13px;
+  left: 167px;
+  top: 275px;
+}
+/* line 50, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .numbers .four {
+  background-position: 0 -1092px;
+  width: 13px;
+  height: 13px;
+  left: 46px;
+  top: 321px;
+}
+/* line 56, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .numbers .five {
+  background-position: 0 -1029px;
+  width: 13px;
+  height: 13px;
+  left: 175px;
+  top: 414px;
+}
+/* line 62, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .numbers .six {
+  background-position: 0 -1363px;
+  width: 13px;
+  height: 13px;
+  left: 306px;
+  top: 409px;
+  z-index: 300;
+}
+/* line 69, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .numbers .seven {
+  background-position: 0 -1300px;
+  width: 13px;
+  height: 13px;
+  left: 450px;
+  top: 415px;
+}
+/* line 76, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .bubble img {
+  position: absolute;
+  z-index: 300;
+  display: none;
+}
+/* line 80, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .bubble .bone {
+  width: 119px;
+  height: 109px;
+  left: 51px;
+  top: 67px;
+}
+/* line 85, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .bubble .btwo {
+  width: 93px;
+  height: 123px;
+  left: 141px;
+  top: 102px;
+}
+/* line 90, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .bubble .bthree {
+  width: 154px;
+  height: 210px;
+  left: 182px;
+  top: 68px;
+}
+/* line 95, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .bubble .bfour {
+  width: 227px;
+  height: 161px;
+  left: 60px;
+  top: 161px;
+}
+/* line 100, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .bubble .bfive {
+  width: 445px;
+  height: 148px;
+  left: 30px;
+  top: 262px;
+}
+/* line 105, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .bubble .bsix {
+  width: 256px;
+  height: 178px;
+  left: 49px;
+  top: 233px;
+}
+/* line 110, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .bubble .bseven {
+  width: 356px;
+  height: 181px;
+  left: 95px;
+  top: 244px;
+}
+/* line 116, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .animate {
+  position: absolute;
+}
+/* line 118, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .animate > div {
+  position: absolute;
+  background: url(../images/sprite.png);
+  z-index: 200;
+}
+/* line 122, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .animate .ani_one {
+  background-position: 0 -185px;
+  width: 0px;
+  height: 12px;
+  left: 17px;
+  top: 179px;
+}
+/* line 128, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .animate .ani_two {
+  background-position: 0 -479px;
+  width: 0px;
+  height: 26px;
+  left: 124px;
+  top: 243px;
+}
+/* line 134, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .animate .ani_three {
+  background-position: 0 -376px;
+  width: 22px;
+  height: 53px;
+  left: 146px;
+  top: 293px;
+}
+/* line 140, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .animate .ani_four {
+  background-position: 0 -53px;
+  width: 74px;
+  height: 21px;
+  z-index: 200;
+  left: 61px;
+  top: 321px;
+}
+/* line 147, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .animate .ani_fourb {
+  background-position: 0 -124px;
+  width: 162px;
+  height: 11px;
+  z-index: 99;
+  left: 19px;
+  top: 336px;
+}
+/* line 154, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .animate .ani_five {
+  background-position: 0 0;
+  width: 243px;
+  height: 0px;
+  left: 114px;
+  top: 435px;
+}
+/* line 160, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .animate .ani_six {
+  background-position: 0 -301px;
+  width: 0px;
+  height: 25px;
+  left: 283px;
+  top: 410px;
+}
+/* line 166, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .animate .ani_seven {
+  background-position: 0 -247px;
+  width: 140px;
+  height: 0px;
+  left: 340px;
+  top: 432px;
+}
+/* line 173, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .box > div {
+  position: absolute;
+  background: url(../images/sprite.png);
+  z-index: 200;
+}
+/* line 177, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .box .box01 {
+  background-position: 0 -699px;
+  width: 20px;
+  height: 19px;
+  left: 227px;
+  top: 371px;
+}
+/* line 183, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .box .box02 {
+  background-position: 0 -768px;
+  width: 18px;
+  height: 16px;
+  left: 200px;
+  top: 375px;
+}
+/* line 189, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .box .box03 {
+  background-position: 0 -834px;
+  width: 15px;
+  height: 13px;
+  left: 200px;
+  top: 375px;
+}
+/* line 195, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .box .box05 {
+  background-position: 0 -897px;
+  width: 21px;
+  height: 19px;
+  left: 253px;
+  top: 402px;
+}
+/* line 201, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .box .box06 {
+  background-position: 0 -966px;
+  width: 19px;
+  height: 13px;
+  left: 226px;
+  top: 407px;
+}
+/* line 207, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .light {
+  position: absolute;
+  background: url(../images/sprite.png);
+  background-position: 0 -1155px;
+  width: 51px;
+  height: 32px;
+  left: 176px;
+  top: 198px;
+}
+/* line 216, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .info .info_wrapper {
+  position: absolute;
+  background: #bce6f3;
+  width: 400px;
+  height: 370px;
+  padding: 20px;
+  margin: auto;
+  top: 475px;
+  left: 20px;
+  border-top: #42b5e8 10px solid;
+  overflow: none;
+}
+/* line 227, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .info .home {
+  position: absolute;
+  background: url(../images/home.png);
+  width: 51px;
+  height: 51px;
+  top: -20px;
+  left: 400px;
+  cursor: pointer;
+  z-index: 400;
+}
+/* line 236, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .info .filler {
+  height: 380px;
+  width: 410px;
+  overflow: auto;
+}
+/* line 240, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .info img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+/* line 245, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .info h2 {
+  position: relative;
+  left: 30px;
+  top: -3px;
+  margin: 2px 0 0 0;
+  padding: 0;
+  font-family: Gotham, Helvetica, Arial, san-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  width: 370px;
+}
+/* line 255, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .info p {
+  font-family: Gotham, Helvetica, Arial, san-serif;
+}
+/* line 257, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .info a {
+  color: #526260;
+  text-decoration: none;
+}
+/* line 260, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .info a:hover {
+  text-decoration: underline;
+}
+/* line 262, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .info .bullet {
+  font-weight: 400;
+  background: url(../images/dot.png) top left no-repeat;
+  background-position: 0 5px;
+  padding-left: 16px;
+  font-size: 14px;
+  line-height: 16px;
+}
+/* line 269, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .info .bullet2 {
+  background: url(../images/dot.png) top left no-repeat;
+  background-position: 0px 5px;
+  padding-left: 20px;
+  margin-left: 15px;
+  font-size: 12px;
+  line-height: 15px;
+}
+/* line 276, ../../app/styles/interactive_map.sass */
+.olshan_wrapper .info .tip {
+  background: url(../images/tip.png) top left no-repeat;
+  background-position: 3px 0px;
+  padding-left: 33px;
+  margin-left: 15px;
+  font-size: 12px;
+  line-height: 15px;
+  min-height: 33px;
+}

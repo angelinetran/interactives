@@ -1,0 +1,600 @@
+/*
+ * orange: #ff4f01
+ * brown: #412811
+ */
+
+ body{
+ 	margin: 0;
+ 	padding: 0;
+ }
+ .qtip{
+ 	font-family: 'Tahoma', Arial;
+ 	font-weight: bold;
+ 	line-height: 25px;
+ }
+
+#ss_rt_wrapper{
+	margin: auto;
+	position: relative;
+	width:670px;
+	height:670px;
+	background: url('images/ss_rt_background.png') no-repeat;
+	font-family: 'Tahoma', Arial;
+	font-weight: bold;
+	overflow:hidden;
+}
+
+#ss_rt_wrapper p {
+	line-height: inherit;
+}
+#ss_rt_wrapper img{
+	border:none;
+}
+
+#ss_rt_wrapper table{
+	border:none;
+	line-height:0;
+}
+
+#ss_rt_wrapper tbody{
+	border:none;
+}
+
+
+
+#ss_rt_wrapper h2{
+	margin: 0px 0px 10px 0px;
+	color: #ff4f01;
+}
+
+#ss_rt_wrapper h3{
+	color: #ff4f01;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #412811;
+}
+
+#app_image img{
+	position: relative;
+	border:none;
+}
+#app_image{
+	width:555px;
+	height:376px;
+	margin:auto;
+	padding-bottom:20px;
+
+}
+
+#ss_rt_wrapper p{
+	font-weight: normal;
+	font-size: 14px;
+	color: #412811;
+}
+
+#ss_rt_wrapper ul{
+	font-weight: normal;
+	font-size: 14px;
+	color: #412811;
+	padding:0px 0 0 20px;
+	margin:0px;
+	line-height: inherit;
+}
+
+#ss_rt_wrapper li{
+	font-weight: normal;
+	font-size: 14px;
+	color: #412811;
+}
+
+#ss_rt_content{
+	position: absolute;
+	top:132px;
+	left:0px;
+}
+
+#ss_rt_couple{
+	position: absolute;
+	background: url('images/ss_rt_couple.png') no-repeat;
+	width:670px;
+	height:428px;
+	left:0px;
+}
+
+#ss_globe_wrapper{
+	position: absolute;
+	width:290px;
+	height:289px;
+	overflow: hidden;
+	top:100px;
+	left:50px;
+}
+
+#ss_globe_wide{
+	width:100000px;
+	height:289px;
+}
+
+#ss_globe_content{
+	width:inherit;
+	height:289px;
+}
+
+#big_america_wrapper{
+	width:310px;
+	height: 289px;
+	display: none;
+	z-index: 6;
+}
+
+#ss_globe_americas, #ss_globe_aussi, #ss_globe_spain{
+	position: relative;
+	width:310px;
+	height:289px;
+	float:left;
+	padding-right:20px;
+}
+#america{
+	cursor:pointer;
+	position:absolute; 
+	left:64px; top:6px;
+	z-index: 1;
+}
+#big_america{
+	position: absolute;
+	top:0px;
+	left:0;
+	z-index:5;
+}
+
+#ss_x{
+	position: absolute;
+	top: 10px;
+	left:220px;
+	z-index: 6;
+	cursor:pointer;
+}
+
+#america_wrapper, #spain_wrapper, #aussi_wrapper{
+	position: relative;
+	float:left;
+}
+
+
+
+#ss_globe_americas{
+	background: url('images/ss_globe_americas.png') no-repeat;
+}
+
+#ss_globe_aussi{
+	background: url('images/ss_globe_aussi.png') no-repeat;
+}
+
+#ss_globe_spain{
+	background: url('images/ss_globe_spain.png') no-repeat;
+}
+
+#ss_left_arrow, #ss_right_arrow{
+	position: absolute;
+	width: 29px;
+	height:34px;
+	top: 235px;
+}
+
+#ss_left_arrow{
+	left: 10px;
+}
+
+#ss_right_arrow{
+	background: url('images/ss_right_arrow.png') no-repeat;
+	left: 350px;
+}
+
+img[alt=globe_shadow]{
+	position: absolute;
+	top:420px;
+	left:100px;
+}
+
+#ss_rt_map_content_wrapper{
+	position: absolute;
+	top:72px;
+	left:392px;
+	width:238px;
+	height:313px;
+	padding:20px;
+	background: #fdfddf;
+	border-bottom: 2px solid #e5e390;
+	overflow: hidden;
+}
+
+#ss_rt_map_content_wide{
+	width:100000px;
+	height:313px;
+}
+
+#ss_map_nav{
+	position: absolute;
+	top:320px;
+	left:70px;
+	cursor: pointer;
+}
+
+#ss_map_nav span{
+	padding-left:20px;
+}
+
+.ss_rt_map_content{
+	height:313px;
+	width:238px;
+	overflow: auto;
+	float:left;
+	padding-right:20px;
+}
+
+.ss_dot{
+	width:19px;
+	height:21px;
+	background:url('images/ss_dot.png') no-repeat;
+	position: absolute;
+	cursor: pointer;
+	z-index: 5;
+}
+
+.ss_dot_active{
+	background:url("images/ss_active_dot.png") no-repeat;
+}
+
+#Albuquerque{
+	top:158px;
+	left:80px;
+}
+#Alexandria{
+	top:190px;
+	left:160px;
+}
+#Asheville{
+	top:162px;
+	left:220px;
+}
+#Atlanta{
+	top:160px;
+	left:174px;
+}
+#Austin{
+	top:196px;
+	left:118px;
+}
+#Bloomington{
+	top:144px;
+	left:187px;
+}
+#Boise{
+	top:98px;
+	left:46px;
+}
+#Cape{
+	top:225px;
+	left:229px;
+}
+#Columbia1{
+	top:201px;
+	left:185px;
+}
+#Columbia2{
+	top:171px;
+	left:228px;
+}
+#Corpus{
+	top:220px;
+	left:135px;
+}
+#Fargo{
+	top:94px;
+	left:140px;
+}
+#Fort{
+	top:233px;
+	left:235px;
+}
+#Huntsville{
+	top:167px;
+	left:192px;
+}
+#Knoxville{
+	top:162px;
+	left:203px;
+}
+#Las{
+	top:193px;
+	left:90px;
+}
+#Lynchburg{
+	top:148px;
+	left:232px;
+}
+#Pensacola{
+	top:203px;
+	left:212px;
+}
+#Phoenix{
+	top:187px;
+	left:72px;
+}
+#Pittsburg{
+	top:133px;
+	left:222px;
+}
+#Salt{
+	top:119px;
+	left:58px;
+}
+#San{
+	top:204px;
+	left:112px;
+}
+#Savannah{
+	top:180px;
+	left:187px;
+}
+#Tuscon{
+	top:186px;
+	left:72px;
+}
+#Tulsa{
+	top:161px;
+	left:153px;
+}
+#Quito{
+	top:138px;
+	left:142px;
+}
+#Panama{
+	top:115px;
+	left:133px;
+}
+#Tulum{
+	top:87px;
+	left:119px;
+}
+#Kuala{
+	top:100px;
+	left:30px;
+}
+#Medelin{
+	top:122px;
+	left:150px;
+}
+#Queenstown{
+	top:184px;
+	left:163px;
+}
+#Granada{
+	top:114px;
+	left:122px;
+}
+#Park{
+	top:48px;
+	left:141px;
+}
+#Thailand{
+	top:63px;
+	left:26px;
+}
+#Half{
+	top:100px;
+	left:128px;
+}
+
+#ss_rt_map{
+	display: none;
+}
+
+#ss_rt_tech{
+	display:none;
+}
+
+#ss_rt_destination{
+	display:none;
+}
+
+#ss_distination_wrapper{
+	position: absolute;
+	top: 60px;
+}
+
+#ss_distination_wrapper ul{
+	list-style-type: none;
+	width:320px;
+}
+
+#ss_distination_wrapper li{
+	padding: 15px 0 0 0;
+	border-top: 1px solid #412811;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#ss_rt_quiz_panama ul{
+	list-style-type: circle;
+	width: 223px;
+}
+
+#ss_rt_quiz_panama li{
+	padding: 0;
+	border:none;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+#ss_distination_wrapper li:first-child{
+	border-top: none;
+}
+
+#ss_distination_wrapper .radio{
+	padding: 10px 0 15px 0;
+	font-weight: bold;
+}
+
+#ss_rt_quiz_content_wrapper{
+	position: absolute;
+	top:62px;
+	left:372px;
+	width:238px;
+	height:283px;
+	padding:20px;
+	background: #fdfddf;
+	border-bottom: 2px solid #e5e390;
+	overflow: hidden;
+}
+
+#ss_rt_quiz_content_wrapper h3{
+	margin:0
+}
+
+
+#ss_rt_quiz_content_wide{
+	width:100000px;
+	height:313px;
+}
+
+.quiz_nav{
+	position: absolute;
+	top:290px;
+	left:70px;
+	cursor: pointer;
+	display: none;
+}
+
+.quiz_nav span{
+	padding-left:20px;
+}
+
+#ss_globe_content p, #p_tag p{
+	line-height: 0;
+	padding :0;
+	margin:0;
+}
+
+
+.ss_rt_quiz_content{
+	height:293px;
+	width:238px;
+	overflow: auto;
+	float:left;
+	padding-right:20px;
+	display: none;
+}
+
+#ss_app_wrapper{
+	position: absolute;
+	top: 60px;
+	left:57px;
+	width:510px;
+	height: 355px;
+}
+
+#ss_app_wrapper img{
+	width:90px;
+	height:90px;
+	cursor: pointer;
+}
+
+#ss_app_wrapper td{
+	vertical-align: top;
+	padding: 5px 10px 0 10px;
+	border:none;
+}
+
+#ss_app_wrapper p{
+	text-align: center;
+}
+
+#ss_boomer_wrapper{
+	position: absolute;
+	height:365px;
+	width:568px;
+	overflow:hidden;
+	z-index: 1000;
+	top:60px;
+	left:-512px;
+}
+
+#ss_boomer_click{
+	position: absolute;
+	height:365px;
+	width:58px;
+	left:510px;
+	overflow:hidden;
+	cursor: pointer;
+}
+
+#ss_boomer_facts{
+	position: absolute;
+	height:365px;
+	width:510px;
+	overflow:hidden;
+}
+
+#ss_boomer_facts img{
+	width:510px;
+}
+
+#ss_boomer_facts ul{
+	width:100000px;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#ss_boomer_facts li{
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+#ss_boomer_nav{
+	position: absolute;
+	top:320px;
+	left: 330px;
+}
+
+#ss_boomer_nav img{
+	width: 70px;
+	height:16px;
+	padding-right:10px;
+	cursor: pointer;
+}
+
+#ss_footer_nav{
+	position: absolute;
+	background: #412811;
+	top:593px;
+	left:65px;
+	border-radius: 10px;
+	color:#fff;
+}
+
+#ss_footer_nav ul{
+	list-style-type: none;
+	margin:0px;
+	padding:20px;
+
+}
+
+#ss_footer_nav li{
+	display: inline;
+	padding: 20px 20px 20px 20px;
+	margin:0px;
+	cursor: pointer;
+	font-weight: bold;
+	color:#fff;
+	font-size: 15px;
+}
+
+.ss_footer_nav_active{
+	background-color: #ff4f01;
+}
+
+
+#ss_footer_nav li:hover{
+	background-color: #ff4f01;
+}

@@ -1,0 +1,1656 @@
+/*
+ * orange: #d75f1d
+ * green:  #678a8b
+ * brown:  #625651
+ * 
+ */ 
+
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/*! normalize.css v1.0.1 | MIT License | git.io/normalize */
+
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+/*
+ * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/*
+ * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+
+audio,
+canvas,
+video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 7/8/9, Firefox 3,
+ * and Safari 4.
+ * Known issue: no IE 6 support.
+ */
+
+[hidden] {
+    display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+/*
+ * 1. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
+ *    `em` units.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+    font-size: 100%; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    -ms-text-size-adjust: 100%; /* 2 */
+}
+
+/*
+ * Addresses `font-family` inconsistency between `textarea` and other form
+ * elements.
+ */
+
+html,
+button,
+input,
+select,
+textarea {
+    font-family: sans-serif;
+}
+
+/*
+ * Addresses margins handled incorrectly in IE 6/7.
+ */
+
+body {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+
+a:focus {
+    outline: thin dotted;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+/*
+ * Addresses font sizes and margins set differently in IE 6/7.
+ * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5,
+ * and Chrome.
+ */
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+
+h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+
+h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+}
+
+h5 {
+    font-size: 0.83em;
+    margin: 1.67em 0;
+}
+
+h6 {
+    font-size: 0.75em;
+    margin: 2.33em 0;
+}
+
+/*
+ * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome.
+ */
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+/*
+ * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
+ */
+
+b,
+strong {
+    font-weight: bold;
+}
+
+blockquote {
+    margin: 1em 40px;
+}
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+
+dfn {
+    font-style: italic;
+}
+
+/*
+ * Addresses styling not present in IE 6/7/8/9.
+ */
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+/*
+ * Addresses margins set differently in IE 6/7.
+ */
+
+p,
+pre {
+    margin: 1em 0;
+}
+
+/*
+ * Corrects font family set oddly in IE 6, Safari 4/5, and Chrome.
+ */
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, serif;
+    _font-family: 'courier new', monospace;
+    font-size: 1em;
+}
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/*
+ * Addresses CSS quotes not supported in IE 6/7.
+ */
+
+q {
+    quotes: none;
+}
+
+/*
+ * Addresses `quotes` property not supported in Safari 4.
+ */
+
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+/*
+ * Addresses inconsistent and variable font size in all browsers.
+ */
+
+small {
+    font-size: 80%;
+}
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Lists
+   ========================================================================== */
+
+/*
+ * Addresses margins set differently in IE 6/7.
+ */
+
+dl,
+menu,
+ol,
+ul {
+    margin: .5em 0;
+}
+
+dd {
+    margin: 0 0 0 40px;
+}
+
+/*
+ * Addresses paddings set differently in IE 6/7.
+ */
+
+menu,
+ol,
+ul {
+    padding: 0 0 0 40px;
+}
+
+/*
+ * Corrects list images handled incorrectly in IE 7.
+ */
+
+nav ul,
+nav ol {
+    list-style: none;
+    list-style-image: none;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+
+/*
+ * 1. Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3.
+ * 2. Improves image quality when scaled in IE 7.
+ */
+
+img {
+    border: 0; /* 1 */
+    -ms-interpolation-mode: bicubic; /* 2 */
+}
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+
+/*
+ * Addresses margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
+ */
+
+figure {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+
+/*
+ * Corrects margin displayed oddly in IE 6/7.
+ */
+
+form {
+    margin: 0;
+}
+
+/*
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+/*
+ * 1. Corrects color not being inherited in IE 6/7/8/9.
+ * 2. Corrects text not wrapping in Firefox 3.
+ * 3. Corrects alignment displayed oddly in IE 6/7.
+ */
+
+legend {
+    border: 0; /* 1 */
+    padding: 0;
+    white-space: normal; /* 2 */
+    *margin-left: -7px; /* 3 */
+}
+
+/*
+ * 1. Corrects font size not being inherited in all browsers.
+ * 2. Addresses margins set differently in IE 6/7, Firefox 3+, Safari 5,
+ *    and Chrome.
+ * 3. Improves appearance and consistency in all browsers.
+ */
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%; /* 1 */
+    margin: 0; /* 2 */
+    vertical-align: baseline; /* 3 */
+    *vertical-align: middle; /* 3 */
+}
+
+/*
+ * Addresses Firefox 3+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+button,
+input {
+    line-height: normal;
+}
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ * 4. Removes inner spacing in IE 7 without affecting normal text inputs.
+ *    Known issue: inner spacing remains in IE 6.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button; /* 2 */
+    cursor: pointer; /* 3 */
+    *overflow: visible;  /* 4 */
+}
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+/*
+ * 1. Addresses box sizing set to content-box in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ * 3. Removes excess padding in IE 7.
+ *    Known issue: excess padding remains in IE 6.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+    *height: 13px; /* 3 */
+    *width: 13px; /* 3 */
+}
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box; /* 2 */
+    box-sizing: content-box;
+}
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/*
+ * Removes inner padding and border in Firefox 3+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/*
+ * 1. Removes default vertical scrollbar in IE 6/7/8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+
+textarea {
+    overflow: auto; /* 1 */
+    vertical-align: top; /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+
+/*
+ * Remove most spacing between table cells.
+ */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*! normalize.css v1.0.1 | MIT License | git.io/normalize */
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}
+audio,canvas,video{display:inline-block;*display:inline;*zoom:1}
+audio:not([controls]){display:none;height:0}
+[hidden]{display:none}
+html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+html,button,input,select,textarea{font-family:sans-serif}
+body{margin:0}
+a:focus{outline:thin dotted}
+a:active,a:hover{outline:0}
+h1{font-size:2em;margin:.67em 0}
+h2{font-size:1.5em;margin:.83em 0}
+h3{font-size:1.17em;margin:1em 0}
+h4{font-size:1em;margin:1.33em 0}
+h5{font-size:.83em;margin:1.67em 0}
+h6{font-size:.75em;margin:2.33em 0}
+abbr[title]{border-bottom:1px dotted}
+b,strong{font-weight:bold}
+blockquote{margin:1em 40px}
+dfn{font-style:italic}
+mark{background:#ff0;color:#000}
+p,pre{margin:1em 0}
+code,kbd,pre,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}
+pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}
+q{quotes:none}
+q:before,q:after{content:'';content:none}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-0.5em}
+sub{bottom:-0.25em}
+dl,menu,ol,ul{margin:.5em 0}
+dd{margin:0 0 0 40px}
+menu,ol,ul{padding:0 0 0 40px}
+nav ul,nav ol{list-style:none;list-style-image:none}
+img{border:0;-ms-interpolation-mode:bicubic}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+form{margin:0}
+fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}
+legend{border:0;padding:0;white-space:normal;*margin-left:-7px}
+button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}
+button,input{line-height:normal}
+button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;*overflow:visible}
+button[disabled],input[disabled]{cursor:default}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*height:13px;*width:13px}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto;vertical-align:top}
+table{border-collapse:collapse;border-spacing:0}
+
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow:none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+
+#ss_flash{
+	position: absolute;
+	top:-220px;
+	left:170px;
+	width:300px;
+	height: 150px;
+	background: #d75f1d;
+	color:#fff;
+	-webkit-border-radius: 15px; 
+	-moz-border-radius: 15px; 
+	border-radius: 15px;
+	padding:20px;
+	text-align: center;
+	border:10px solid #625651;	
+}
+
+#ss_flash p {
+	font-size: 30px !important;
+	font-weight: bolder;
+}
+
+#ss_ug_overlay{
+	background: url(images/ss_ug_overlay.png) no-repeat;
+	width:670px;
+	height:750px;
+	position: absolute;
+}
+
+ .qtip-content {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+ #ss_ug_wrapper p,  
+ #ss_ug_wrapper h2, 
+ #ss_ug_wrapper ul{
+	line-height: inherit;
+}
+
+ #ss_ug_wrapper img{
+	border: 0;
+}
+
+#ss_ug_wrapper{
+	background: url(images/ss_ug_wrapper_bg.png) no-repeat;
+	position: relative;
+	width:670px;
+	height:750px;
+	font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+#ss_ug_content_wrapper{
+	position: absolute;
+	width:670px;
+	height:671px;
+}
+
+#ss_ug_nav_wrapper{
+	position: absolute;
+	top:672px;
+	left:20px;
+	width:650px;
+	height:79px;
+}
+
+#ss_ug_nav_wrapper ul{
+	position: relative;
+	width:630px;
+	height:79px;
+	padding:0;
+	margin:auto;
+}
+#ss_ug_nav_wrapper li{
+	text-transform: uppercase;
+	display:block;
+	float:left;
+	width:190px;
+	height:37px;
+	padding:0 10px 0 10px;
+	margin-top:22px;
+	color:#fff;
+	cursor: pointer;
+}
+
+#ss_ug_splash{
+	background: url(images/ss_ug_splash.png) no-repeat;
+	width:670px;
+	height:671px;
+}
+
+#ss_ug_cope{
+	background: url(images/ss_ug_tips_bg.png) no-repeat;
+	width:670px;
+	height:671px;
+	position: absolute;
+}
+
+#ul_wrapper{
+	top:80px;
+	position: absolute;
+	width: 600px;
+	height:500px;
+	overflow: hidden;
+}
+#ss_ug_cope ul{
+	position: absolute;
+	
+}
+
+#ss_ug_cope li{
+	position: relative;
+	width: 560px;
+	height:510px;
+	list-style: none;
+}
+
+#ss_ug_cope ol{
+	position: relative;
+	top:130px;
+	left:200px;
+	width:300px;
+	line-height: 1.5em;
+	display: inline-block;
+}
+
+#ss_ug_cope ol li{
+	position: relative;
+	width:300px;
+	line-height: 1.5em;
+	list-style: decimal;
+	height:inherit;
+	font: 30px Palatino Linotype, Cambria, Georgia;
+	color: #678a8b;
+}
+
+
+#ss_ug_cope ol p{
+	font: 16px Helvetica, Arial, sans-serif;
+	color: #625651;
+	line-height: 1.7em;
+}
+ 
+  
+#ss_ug_cope, #ss_ug_rates, #ss_ug_state{
+	display:none;
+}
+
+.cope_title1, 
+.cope_title2, 
+.cope_title3,
+.cope_title4{
+	position: absolute;
+	width: 560px;
+	height:510px;
+}
+
+.cope_title1{
+	background:url(images/ss_ug_tips_title1.png) no-repeat;
+}
+.cope_title2{
+	background:url(images/ss_ug_tips_title2.png) no-repeat;
+}
+.cope_title3{
+	background:url(images/ss_ug_tips_title3.png) no-repeat;
+}
+.cope_title4{
+	background:url(images/ss_ug_tips_title4.png) no-repeat;
+}
+
+#ss_up, #ss_down, #ss_down:hover, #ss_up:hover{
+	position:absolute;
+	width:31px;
+	height:28px;
+	top:35px;
+	left:330px;
+	cursor: pointer;
+}
+
+#ss_up{
+	top:35px;
+}
+
+#ss_up:hover{
+	top:35px;
+}
+
+#ss_down{
+	top:626px;
+}
+
+#ss_down:hover{
+	top:626px;
+}
+
+#ss_ug_rates{
+	width:670px;
+	height:671px;
+}
+
+#ss_ug_rates table{
+	position: absolute;
+	top:90px;
+	left:40px;
+	border:0;
+}
+#ss_ug_rates td{
+	width:145px;
+	text-align: center;
+	padding:0;
+	margin:0;
+}
+
+#ss_ug_rates p{
+	font: 12px Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin:5px 0 5px 0px;
+}
+#ss_rates_title{
+	position: absolute;
+	top:39px;
+	left:62px;
+	background: url(images/ss_ug_rates_title.png) no-repeat;
+	width:547px;
+	height:34px;
+}
+
+#ss_ug_agri_icon,
+#ss_ug_mini_icon,
+#ss_ug_cons_icon,
+#ss_ug_manu_icon,
+#ss_ug_whol_icon,
+#ss_ug_reta_icon,
+#ss_ug_tran_icon,
+#ss_ug_util_icon,
+#ss_ug_info_icon,
+#ss_ug_fina_icon,
+#ss_ug_real_icon,
+#ss_ug_prof_icon,
+#ss_ug_educ_icon,
+#ss_ug_soci_icon,
+#ss_ug_arts_icon,
+#ss_ug_food_icon{
+	width:86px;
+	height:94px;
+	cursor:pointer;
+	margin:auto;
+}
+
+#ss_ug_agri_icon{
+	background:url(images/ss_ug_agri_icon.png) no-repeat;
+}
+#ss_ug_mini_icon{
+	background:url(images/ss_ug_mini_icon.png) no-repeat;
+}
+#ss_ug_cons_icon{
+	background:url(images/ss_ug_cons_icon.png) no-repeat;
+}
+#ss_ug_manu_icon{
+	background:url(images/ss_ug_manu_icon.png) no-repeat;
+}
+#ss_ug_whol_icon{
+	background:url(images/ss_ug_whol_icon.png) no-repeat;
+}
+#ss_ug_reta_icon{
+	background:url(images/ss_ug_reta_icon.png) no-repeat;
+}
+#ss_ug_tran_icon{
+	background:url(images/ss_ug_tran_icon.png) no-repeat;
+}
+#ss_ug_util_icon{
+	background:url(images/ss_ug_util_icon.png) no-repeat;
+}
+#ss_ug_info_icon{
+	background:url(images/ss_ug_info_icon.png) no-repeat;
+}
+#ss_ug_fina_icon{
+	background:url(images/ss_ug_fina_icon.png) no-repeat;
+}
+#ss_ug_real_icon{
+	background:url(images/ss_ug_real_icon.png) no-repeat;
+}
+#ss_ug_prof_icon{
+	background:url(images/ss_ug_prof_icon.png) no-repeat;
+}
+#ss_ug_educ_icon{
+	background:url(images/ss_ug_educ_icon.png) no-repeat;
+}
+#ss_ug_soci_icon{
+	background:url(images/ss_ug_soci_icon.png) no-repeat;
+	background-position: 0px 4px;
+}
+#ss_ug_arts_icon{
+	background:url(images/ss_ug_arts_icon.png) no-repeat;
+}
+#ss_ug_food_icon{
+	background:url(images/ss_ug_food_icon.png) no-repeat;
+}
+
+#ss_ug_agri_icon:hover{
+	background:url(images/ss_ug_agri_icon_stats.png) no-repeat;
+	background-position: 0px 4px;
+}
+#ss_ug_mini_icon:hover{
+	background:url(images/ss_ug_mini_icon_stats.png) no-repeat;
+	background-position: 0px 4px;
+}
+#ss_ug_cons_icon:hover{
+	background:url(images/ss_ug_cons_icon_stats.png) no-repeat;
+	background-position: 0px 4px;
+}
+#ss_ug_manu_icon:hover{
+	background:url(images/ss_ug_manu_icon_stats.png) no-repeat;
+	background-position: 0px 4px;
+}
+#ss_ug_whol_icon:hover{
+	background:url(images/ss_ug_whol_icon_stats.png) no-repeat;
+	background-position: 0px 4px;
+}
+#ss_ug_reta_icon:hover{
+	background:url(images/ss_ug_reta_icon_stats.png) no-repeat;
+	background-position: 0px 4px;
+}
+#ss_ug_tran_icon:hover{
+	background:url(images/ss_ug_tran_icon_stats.png) no-repeat;
+	background-position: 0px 4px;
+}
+#ss_ug_util_icon:hover{
+	background:url(images/ss_ug_util_icon_stats.png) no-repeat;
+	background-position: 0px 4px;
+}
+#ss_ug_info_icon:hover{
+	background:url(images/ss_ug_info_icon_stats.png) no-repeat;
+	background-position: 0px 4px;
+}
+#ss_ug_fina_icon:hover{
+	background:url(images/ss_ug_fina_icon_stats.png) no-repeat;
+	background-position: 0px 4px;
+}
+#ss_ug_real_icon:hover{
+	background:url(images/ss_ug_real_icon_stats.png) no-repeat;
+	background-position: 0px 4px;
+}
+#ss_ug_prof_icon:hover{
+	background:url(images/ss_ug_prof_icon_stats.png) no-repeat;
+	background-position: 0px 4px;
+}
+#ss_ug_educ_icon:hover{
+	background:url(images/ss_ug_educ_icon_stats.png) no-repeat;
+	background-position: 0px 4px;
+}
+#ss_ug_soci_icon:hover{
+	background:url(images/ss_ug_soci_icon_stats.png) no-repeat;
+	background-position: 0px 4px;
+}
+#ss_ug_arts_icon:hover{
+	background:url(images/ss_ug_arts_icon_stats.png) no-repeat;
+	background-position: 0px 4px;
+}
+#ss_ug_food_icon:hover{
+	background:url(images/ss_ug_food_icon_stats.png) no-repeat;
+	background-position: 0px 4px;
+}
+#ss_ug_state{
+	position: absolute;
+	width:670px;
+	height:671px;
+}
+#ss_ug_state_title{
+	background: url(images/ss_ug_state_title.png) no-repeat;
+	width:568px;
+	height:97px;
+	position: absolute;
+	top:50px;
+	left:51px;
+}
+
+#ss_how_to{
+	position: absolute;
+	top:570px;
+	left:320px;
+	width:300px;
+	background: #d75f1d;
+	color:#fff;
+	-webkit-border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	border-radius: 5px;
+	padding:10px;
+	text-align: center 
+}
+
+img[alt='states']{
+	position: absolute;
+	top:172px;
+	left:20px;
+}
+
+#alabama,
+#alaska,
+#arizona,
+#arkansas,
+#california,
+#colorado,
+#connecticut,
+#delaware,
+#florida,
+#georgia,
+#hawaii,
+#idaho,
+#illinios,
+#indiana,
+#iowa,
+#kansas,
+#kentucky,
+#louisiana,
+#maine,
+#maryland,
+#massachusetts,
+#michigan,
+#minnesota,
+#mississippi,
+#missouri,
+#montana,
+#nebraska,
+#nevada,
+#new_hampshire,
+#new_jersey,
+#new_mexico,
+#new_york,
+#north_carolina,
+#north_dakota,
+#ohio,
+#oklahoma,
+#oregon,
+#pennsylvania,
+#rhode_island,
+#south_carolina,
+#south_dakota,
+#tennessee,
+#texas,
+#utah,
+#vermont,
+#virginia,
+#washington,
+#west_virginia,
+#wisconsin,
+#wyoming{
+	position: absolute;
+	cursor: pointer;
+}
+
+#alabama{
+	background:url(images/alabama.png) no-repeat;
+	top:407px;
+	left:437px;
+	width:46px;
+	height:75px;
+}
+#alaska{
+	background:url(images/alaska.png) no-repeat;
+	top:501px;
+	left:24px;
+	width:253px;
+	height:146px;
+}
+#arizona{
+	background:url(images/arizona.png) no-repeat;
+	top:368px;
+	left:108px;
+	width:80px;
+	height:93px;
+}
+#arkansas{
+	background:url(images/arkansas.png) no-repeat;
+	top:390px;
+	left:359px;
+	width:59px;
+	height:55px;
+}
+#california{
+	background:url(images/california.png) no-repeat;
+	top:268px;
+	left:25px;
+	width:97px;
+	height:162px;
+}
+#colorado{
+	background:url(images/colorado.png) no-repeat;
+	top:317px;
+	left:189px;
+	width:85px;
+	height:67px;
+}
+#connecticut{
+	background:url(images/connecticut.png) no-repeat;
+	top:274px;
+	left:587px;
+	width:20px;
+	height:20px;
+}
+#delaware{
+	background:url(images/delaware.png) no-repeat;
+	top:316px;
+	left:570px;
+	width:13px;
+	height:20px;
+}
+#florida{
+	background:url(images/florida.png) no-repeat;
+	top:463px;
+	left:450px;
+	width:108px;
+	height:82px;
+}
+#georgia{
+	background:url(images/georgia.png) no-repeat;
+	top:404px;
+	left:468px;
+	width:65px;
+	height:66px;
+}
+#hawaii{
+	background:url(images/hawaii.png) no-repeat;
+	top:456px;
+	left:20px;
+	width:71px;
+	height:46px;
+}
+#idaho{
+	background:url(images/idaho.png) no-repeat;
+	top:185px;
+	left:111px;
+	width:70px;
+	height:114px;
+}
+#illinios{
+	background:url(images/illinios.png) no-repeat;
+	top:298px;
+	left:392px;
+	width:47px;
+	height:83px;
+}
+#indiana{
+	background:url(images/indiana.png) no-repeat;
+	top:306px;
+	left:434px;
+	width:36px;
+	height:62px;
+}
+#iowa{
+	background:url(images/iowa.png) no-repeat;
+	top:286px;
+	left:334px;
+	width:72px;
+	height:47px;
+}
+#kansas{
+	background:url(images/kansas.png) no-repeat;
+	top:339px;
+	left:271px;
+	width:88px;
+	height:46px;
+}
+#kentucky{
+	background:url(images/kentucky.png) no-repeat;
+	top:345px;
+	left:420px;
+	width:85px;
+	height:44px;
+}
+#louisiana{
+	background:url(images/louisiana.png) no-repeat;
+	top:443px;
+	left:367px;
+	width:68px;
+	height:60px;
+}
+#maine{
+	background:url(images/maine.png) no-repeat;
+	top:186px;
+	left:599px;
+	width:44px;
+	height:70px;
+}
+#maryland{
+	background:url(images/maryland.png) no-repeat;
+	top:318px;
+	left:529px;
+	width:54px;
+	height:38px;
+}
+#massachusetts{
+	background:url(images/massachusetts.png) no-repeat;
+	top:259px;
+	left:586px;
+	width:42px;
+	height:22px;
+}
+#michigan{
+	background:url(images/michigan.png) no-repeat;
+	top:228px;
+	left:398px;
+	width:91px;
+	height:80px;
+}
+#minnesota{
+	background:url(images/minnesota.png) no-repeat;
+	top:200px;
+	left:328px;
+	width:77px;
+	height:88px;
+}
+#mississippi{
+	background:url(images/mississippi.png) no-repeat;
+	top:411px;
+	left:399px;
+	width:42px;
+	height:73px;
+}
+#missouri{
+	background:url(images/missouri.png) no-repeat;
+	top:329px;
+	left:345px;
+	width:78px;
+	height:69px;
+}
+#montana{
+	background:url(images/montana.png) no-repeat;
+	top:187px;
+	left:139px;
+	width:121px;
+	height:75px;
+}
+#nebraska{
+	background:url(images/nebraska.png) no-repeat;
+	top:293px;
+	left:252px;
+	width:96px;
+	height:47px;
+}
+#nevada{
+	background:url(images/nevada.png) no-repeat;
+	top:280px;
+	left:69px;
+	width:74px;
+	height:115px;
+}
+#new_hampshire{
+	background:url(images/new_hampshire.png) no-repeat;
+	top:224px;
+	left:593px;
+	width:20px;
+	height:41px;
+}
+#new_jersey{
+	background:url(images/new_jersey.png) no-repeat;
+	top:291px;
+	left:573px;
+	width:16px;
+	height:37px;
+}
+#new_mexico{
+	background:url(images/new_mexico.png) no-repeat;
+	top:377px;
+	left:178px;
+	width:82px;
+	height:85px;
+}
+#new_york{
+	background:url(images/new_york.png) no-repeat;
+	top:234px;
+	left:518px;
+	width:90px;
+	height:67px;
+}
+#north_carolina{
+	background:url(images/north_carolina.png) no-repeat;
+	top:365px;
+	left:483px;
+	width:101px;
+	height:46px;
+}
+#north_dakota{
+	background:url(images/north_dakota.png) no-repeat;
+	top:203px;
+	left:257px;
+	width:78px;
+	height:48px;
+}
+#ohio{
+	background:url(images/ohio.png) no-repeat;
+	top:295px;
+	left:465px;
+	width:50px;
+	height:57px;
+}
+#oklahoma{
+	background:url(images/oklahoma.png) no-repeat;
+	top:383px;
+	left:259px;
+	width:103px;
+	height:52px;
+}
+#oregon{
+	background:url(images/oregon.png) no-repeat;
+	top:208px;
+	left:33px;
+	width:95px;
+	height:79px;
+}
+#pennsylvania{
+	background:url(images/pennsylvania.png) no-repeat;
+	top:284px;
+	left:511px;
+	width:69px;
+	height:44px;
+}
+#rhode_island{
+	background:url(images/rhode_island.png) no-repeat;
+	top:274px;
+	left:606px;
+	width:6px;
+	height:11px;
+}
+#south_carolina{
+	background:url(images/south_carolina.png) no-repeat;
+	top:397px;
+	left:496px;
+	width:60px;
+	height:46px;
+}
+#south_dakota{
+	background:url(images/south_dakota.png) no-repeat;
+	top:249px;
+	left:254px;
+	width:83px;
+	height:53px;
+}
+#tennessee{
+	background:url(images/tennessee.png) no-repeat;
+	top:377px;
+	left:412px;
+	width:99px;
+	height:35px;
+}
+#texas{
+	background:url(images/texas.png) no-repeat;
+	top:391px;
+	left:209px;
+	width:165px;
+	height:161px;
+}
+#utah{
+	background:url(images/utah.png) no-repeat;
+	top:294px;
+	left:130px;
+	width:66px;
+	height:82px;
+}
+#vermont{
+	background:url(images/vermont.png) no-repeat;
+	top:229px;
+	left:577px;
+	width:20px;
+	height:38px;
+}
+#virginia{
+	background:url(images/virginia.png) no-repeat;
+	top:328px;
+	left:490px;
+	width:90px;
+	height:52px;
+}
+#washington{
+	background:url(images/washington.png) no-repeat;
+	top:172px;
+	left:54px;
+	width:79px;
+	height:57px;
+}
+#west_virginia{
+	background:url(images/west_virginia.png) no-repeat;
+	top:320px;
+	left:497px;
+	width:52px;
+	height:48px;
+}
+#wisconsin{
+	background:url(images/wisconsin.png) no-repeat;
+	top:234px;
+	left:374px;
+	width:59px;
+	height:66px;
+}
+#wyoming{
+	background:url(images/wyoming.png) no-repeat;
+	top:255px;
+	left:174px;
+	width:83px;
+	height:67px;
+}
+
+#alabama:hover{
+	background: url(images/alabama_hover.png) no-repeat;
+}
+#alaska:hover{
+	background: url(images/alaska_hover.png) no-repeat;
+}
+#arizona:hover{
+	background: url(images/arizona_hover.png) no-repeat;
+}
+#arkansas:hover{
+	background: url(images/arkansas_hover.png) no-repeat;
+}
+#california:hover{
+	background: url(images/california_hover.png) no-repeat;
+}
+#colorado:hover{
+	background: url(images/colorado_hover.png) no-repeat;
+}
+#connecticut:hover{
+	background: url(images/connecticut_hover.png) no-repeat;
+}
+#delaware:hover{
+	background: url(images/delaware_hover.png) no-repeat;
+}
+#florida:hover{
+	background: url(images/florida_hover.png) no-repeat;
+}
+#georgia:hover{
+	background: url(images/georgia_hover.png) no-repeat;
+}
+#hawaii:hover{
+	background: url(images/hawaii_hover.png) no-repeat;
+}
+#idaho:hover{
+	background: url(images/idaho_hover.png) no-repeat;
+}
+#illinios:hover{
+	background: url(images/illinios_hover.png) no-repeat;
+}
+#indiana:hover{
+	background: url(images/indiana_hover.png) no-repeat;
+}
+#iowa:hover{
+	background: url(images/iowa_hover.png) no-repeat;
+}
+#kansas:hover{
+	background: url(images/kansas_hover.png) no-repeat;
+}
+#kentucky:hover{
+	background: url(images/kentucky_hover.png) no-repeat;
+}
+#louisiana:hover{
+	background: url(images/louisiana_hover.png) no-repeat;
+}
+#maine:hover{
+	background: url(images/maine_hover.png) no-repeat;
+}
+#maryland:hover{
+	background: url(images/maryland_hover.png) no-repeat;
+}
+#massachusetts:hover{
+	background: url(images/massachusetts_hover.png) no-repeat;
+}
+#michigan:hover{
+	background: url(images/michigan_hover.png) no-repeat;
+}
+#minnesota:hover{
+	background: url(images/minnesota_hover.png) no-repeat;
+}
+#mississippi:hover{
+	background: url(images/mississippi_hover.png) no-repeat;
+}
+#missouri:hover{
+	background: url(images/missouri_hover.png) no-repeat;
+}
+#montana:hover{
+	background: url(images/montana_hover.png) no-repeat;
+}
+#nebraska:hover{
+	background: url(images/nebraska_hover.png) no-repeat;
+}
+#nevada:hover{
+	background: url(images/nevada_hover.png) no-repeat;
+}
+#new_hampshire:hover{
+	background: url(images/new_hampshire_hover.png) no-repeat;
+}
+#new_jersey:hover{
+	background: url(images/new_jersey_hover.png) no-repeat;
+}
+#new_mexico:hover{
+	background: url(images/new_mexico_hover.png) no-repeat;
+}
+#new_york:hover{
+	background: url(images/new_york_hover.png) no-repeat;
+}
+#north_carolina:hover{
+	background: url(images/north_carolina_hover.png) no-repeat;
+}
+#north_dakota:hover{
+	background: url(images/north_dakota_hover.png) no-repeat;
+}
+#ohio:hover{
+	background: url(images/ohio_hover.png) no-repeat;
+}
+#oklahoma:hover{
+	background: url(images/oklahoma_hover.png) no-repeat;
+}
+#oregon:hover{
+	background: url(images/oregon_hover.png) no-repeat;
+}
+#pennsylvania:hover{
+	background: url(images/pennsylvania_hover.png) no-repeat;
+}
+#rhode_island:hover{
+	background: url(images/rhode_island_hover.png) no-repeat;
+}
+#south_carolina:hover{
+	background: url(images/south_carolina_hover.png) no-repeat;
+}
+#south_dakota:hover{
+	background: url(images/south_dakota_hover.png) no-repeat;
+}
+#tennessee:hover{
+	background: url(images/tennessee_hover.png) no-repeat;
+}
+#texas:hover{
+	background: url(images/texas_hover.png) no-repeat;
+}
+#utah:hover{
+	background: url(images/utah_hover.png) no-repeat;
+}
+#vermont:hover{
+	background: url(images/vermont_hover.png) no-repeat;
+}
+#virginia:hover{
+	background: url(images/virginia_hover.png) no-repeat;
+}
+#washington:hover{
+	background: url(images/washington_hover.png) no-repeat;
+}
+#west_virginia:hover{
+	background: url(images/west_virginia_hover.png) no-repeat;
+}
+#wisconsin:hover{
+	background: url(images/wisconsin_hover.png) no-repeat;
+}
+#wyoming:hover{
+	background: url(images/wyoming_hover.png) no-repeat;
+}
+
+
+#blob {
+	 position: absolute;
+	 z-index : 1;
+	 height:15px !important;
+	 top:41px;
+	 background-color:#d75f1d;
+	 width:190px !important;
+	 padding:0 !important;
+	 margin:0;
+}

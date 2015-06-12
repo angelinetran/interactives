@@ -1,0 +1,564 @@
+/* line 17, ../../../../../../../Angeline/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, #ss_ht_wrapper span, #ss_ht_wrapper applet, #ss_ht_wrapper object, #ss_ht_wrapper iframe, #ss_ht_wrapper
+h1, #ss_ht_wrapper h2, #ss_ht_wrapper h3, #ss_ht_wrapper h4, #ss_ht_wrapper h5, #ss_ht_wrapper h6, #ss_ht_wrapper p, #ss_ht_wrapper blockquote, #ss_ht_wrapper pre, #ss_ht_wrapper
+a, #ss_ht_wrapper abbr, #ss_ht_wrapper acronym, #ss_ht_wrapper address, #ss_ht_wrapper big, #ss_ht_wrapper cite, #ss_ht_wrapper code, #ss_ht_wrapper
+del, #ss_ht_wrapper dfn, #ss_ht_wrapper em, #ss_ht_wrapper img, #ss_ht_wrapper ins, #ss_ht_wrapper kbd, #ss_ht_wrapper q, #ss_ht_wrapper s, #ss_ht_wrapper samp, #ss_ht_wrapper
+small, #ss_ht_wrapper strike, #ss_ht_wrapper strong, #ss_ht_wrapper sub, #ss_ht_wrapper sup, #ss_ht_wrapper tt, #ss_ht_wrapper var, #ss_ht_wrapper
+b, #ss_ht_wrapper u, #ss_ht_wrapper i, #ss_ht_wrapper center, #ss_ht_wrapper
+dl, #ss_ht_wrapper dt, #ss_ht_wrapper dd, #ss_ht_wrapper ol, #ss_ht_wrapper ul, #ss_ht_wrapper li, #ss_ht_wrapper
+fieldset, #ss_ht_wrapper form, #ss_ht_wrapper label, #ss_ht_wrapper legend, #ss_ht_wrapper
+table, #ss_ht_wrapper caption, #ss_ht_wrapper tbody, #ss_ht_wrapper tfoot, #ss_ht_wrapper thead, #ss_ht_wrapper tr, #ss_ht_wrapper th, #ss_ht_wrapper td, #ss_ht_wrapper
+article, #ss_ht_wrapper aside, #ss_ht_wrapper canvas, #ss_ht_wrapper details, #ss_ht_wrapper embed, #ss_ht_wrapper
+figure, #ss_ht_wrapper figcaption, #ss_ht_wrapper footer, #ss_ht_wrapper header, #ss_ht_wrapper hgroup, #ss_ht_wrapper
+menu, #ss_ht_wrapper nav, #ss_ht_wrapper output, #ss_ht_wrapper ruby, #ss_ht_wrapper section, #ss_ht_wrapper summary, #ss_ht_wrapper
+time, #ss_ht_wrapper mark, #ss_ht_wrapper audio, #ss_ht_wrapper video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+#tweetthis{
+  top:80px; 
+  left:440px;
+  width:210px; 
+  height:250px
+}
+#tweetthis p{
+  margin-top:0px; 
+  padding-bottom:0px
+}
+
+.post img{
+  border: 0px none;
+}
+/* line 22, #ss_ht_wrapper ../../../../../../../Angeline/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Angeline/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+#ss_ht_wrapper ol, #ss_ht_wrapper ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Angeline/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+#ss_ht_wrapper table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Angeline/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+#ss_ht_wrapper caption, #ss_ht_wrapper th, #ss_ht_wrapper td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Angeline/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+#ss_ht_wrapper q, #ss_ht_wrapper blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Angeline/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+#ss_ht_wrapper q:before, #ss_ht_wrapper q:after, #ss_ht_wrapper blockquote:before, #ss_ht_wrapper blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Angeline/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+#ss_ht_wrapper a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Angeline/.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+body{
+  height: 700px;
+}
+
+/* line 3, ../../app/styles/holiday_travel.sass */
+#ss_ht_overlay {
+  background: url(../images/ss_ht_overlay1.png) no-repeat;
+  width: 670px;
+  height: 700px;
+  position: absolute;
+  z-index: 500;
+  cursor: pointer;
+}
+
+/* line 11, ../../app/styles/holiday_travel.sass */
+#ss_ht_wrapper {
+  position: relative;
+  background: url(../images/ss_ht_bg.png) no-repeat;
+  width: 670px;
+  height: 800px;
+  overflow: hidden;
+  top:-100px;
+}
+
+#ss_ht_wrapper a {
+  color: #515152
+}
+
+#ss_ht_wrapper a:hover {
+  color: #111;
+}
+
+/* line 18, ../../app/styles/holiday_travel.sass */
+#ss_ht_title {
+  position: absolute;
+  background: url(../images/ss_ht_title.png) no-repeat;
+  width: 670px;
+  height: 158px;
+  z-index: 2;
+}
+
+/* line 25, ../../app/styles/holiday_travel.sass */
+.ss_ht_globe_nav,
+.ss_ht_plane_nav,
+.ss_ht_car_nav {
+  cursor: pointer;
+}
+
+/* line 30, ../../app/styles/holiday_travel.sass */
+.ss_ht_globe_nav,
+.ss_ht_plane_nav,
+.ss_ht_car_nav,
+.ss_ht_globe_content,
+.ss_ht_plane_content,
+.ss_ht_car_content {
+  position: absolute;
+}
+
+/* line 39, ../../app/styles/holiday_travel.sass */
+.ss_ht_globe_content,
+.ss_ht_plane_content,
+.ss_ht_car_content {
+  background: url(../images/ss_ht_content_bg.png) no-repeat;
+  width: 639px;
+  height: 439px;
+  top: -292px;
+  left: 17px;
+}
+
+/* line 51, ../../app/styles/holiday_travel.sass */
+.ss_ht_globe_nav:hover {
+  background: url("../images/ss_ht_nav_globe_hover.png") no-repeat;
+}
+
+/* line 53, ../../app/styles/holiday_travel.sass */
+.ss_ht_plane_nav:hover {
+  background: url("../images/ss_ht_nav_plane_hover.png") no-repeat;
+}
+
+/* line 55, ../../app/styles/holiday_travel.sass */
+.ss_ht_car_nav:hover {
+  background: url("../images/ss_ht_nav_car_hover.png") no-repeat;
+}
+
+#tweetthis{
+  position: absolute;
+}
+
+/*********************PENDULUM POSITIONING*********************** */
+/* line 60, ../../app/styles/holiday_travel.sass */
+.pendulum_globe,
+.pendulum_plane,
+.pendulum_car {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background-image: url(../images/ss_ht_grey_button_hover.png);
+}
+
+/* line 68, ../../app/styles/holiday_travel.sass */
+.pendulum_globe {
+  top: 100px;
+  left: 110px;
+}
+
+/* line 72, ../../app/styles/holiday_travel.sass */
+.pendulum_plane {
+  top: 140px;
+  left: 340px;
+}
+
+/* line 76, ../../app/styles/holiday_travel.sass */
+.pendulum_car {
+  top: 150px;
+  left: 500px;
+}
+
+/*********************STYLES*********************** */
+/* line 81, ../../app/styles/holiday_travel.sass */
+#ss_ht_wrapper {
+  color: #515152;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* line 86, ../../app/styles/holiday_travel.sass */
+#ss_ht_wrapper h2 {
+  margin: 80px 0 0 0;
+  color: #515152 !important;
+  font-size: 20px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+/* line 93, ../../app/styles/holiday_travel.sass */
+#ss_ht_wrapper h3 {
+  margin: 15px 0 0 0;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+/* line 98, ../../app/styles/holiday_travel.sass */
+#ss_ht_wrapper p {
+  margin: 15px 0 0 0;
+  font-size: 20px;
+  line-height: 1.2em;
+}
+
+/*********************SHARED CONTENT POSITIONING*********************** */
+/* line 107, ../../app/styles/holiday_travel.sass */
+.ss_ht_content_wrapper,
+.ss_ht_content_title,
+.ss_ht_content_wide {
+  position: absolute;
+  overflow: hidden;
+}
+
+/* line 113, ../../app/styles/holiday_travel.sass */
+.ss_ht_content_wrapper {
+  position: absolute;
+  width: 555px;
+  height: 352px;
+  left: 44px;
+  top: 43px;
+}
+
+/* line 120, ../../app/styles/holiday_travel.sass */
+.ss_ht_content_title {
+  width: 289px;
+  height: 58px;
+  left: 7px;
+  top: 10px;
+}
+
+/* line 126, ../../app/styles/holiday_travel.sass */
+.ss_ht_content_wide {
+  width: 10000px;
+  height: 352px;
+}
+
+/* line 130, ../../app/styles/holiday_travel.sass */
+.ss_ht_content {
+  position: relative;
+  width: 475px;
+  height: 230px;
+  padding: 0 40px;
+  display: inline-block;
+  float:left;
+}
+
+/* line 137, ../../app/styles/holiday_travel.sass */
+.ss_ht_content_ab {
+  position: absolute;
+  width: 475px;
+  height: 230px;
+  padding: 0 40px;
+}
+
+/* line 143, ../../app/styles/holiday_travel.sass */
+.ss_ht_prev_next_nav {
+  position: absolute;
+  top: 290px;
+  left: 470px;
+}
+
+/* line 148, ../../app/styles/holiday_travel.sass */
+.ss_ht_prev_next_nav img {
+  width: 30px;
+  height: 29px;
+  cursor: pointer;
+}
+
+/* line 153, ../../app/styles/holiday_travel.sass */
+.ss_ht_content_icon {
+  position: absolute;
+  width: 370px;
+  height: 170px;
+  top: 290px;
+  left: 270px;
+}
+
+/* line 160, ../../app/styles/holiday_travel.sass */
+.ss_ht_nav_icon {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 49px;
+  cursor: pointer;
+  float: left;
+  margin-left:5px;
+}
+
+/*********************GLOBE CONTENT POSITIONING*********************** */
+/* line 168, ../../app/styles/holiday_travel.sass */
+.ss_ht_globe_nav {
+  background: url("../images/ss_ht_nav_globe.png") no-repeat;
+  width: 162px;
+  height: 314px;
+  left: -78px;
+  top: 0px;
+}
+
+/* line 175, ../../app/styles/holiday_travel.sass */
+#ss_ht_globe_title {
+  background: url(../images/ss_ht_title_international_travel.png) no-repeat;
+}
+
+/*********************PLANE CONTENT POSITIONING*********************** */
+/* line 179, ../../app/styles/holiday_travel.sass */
+.ss_ht_plane_nav {
+  background: url("../images/ss_ht_nav_plane.png") no-repeat;
+  width: 268px;
+  height: 326px;
+  left: -150px;
+  top: -50px;
+}
+
+/* line 186, ../../app/styles/holiday_travel.sass */
+#ss_ht_plane_title {
+  background: url(../images/ss_ht_title_air_travel.png) no-repeat;
+}
+
+/* line 189, ../../app/styles/holiday_travel.sass */
+#ss_rt_button_booking_flight {
+  background: url(../images/ss_rt_button_booking_flight.png) no-repeat;
+}
+
+/* line 191, ../../app/styles/holiday_travel.sass */
+#ss_rt_button_day_of_flight {
+  background: url(../images/ss_rt_button_day_of_flight.png) no-repeat;
+}
+
+/* line 193, ../../app/styles/holiday_travel.sass */
+#ss_rt_button_baggage {
+  background: url(../images/ss_rt_button_baggage.png) no-repeat;
+}
+
+/* line 195, ../../app/styles/holiday_travel.sass */
+#ss_rt_button_security {
+  background: url(../images/ss_rt_button_security.png) no-repeat;
+}
+
+/* line 197, ../../app/styles/holiday_travel.sass */
+#ss_rt_button_in_air_comfort {
+  background: url(../images/ss_rt_button_in_air_comfort.png) no-repeat;
+}
+
+/* line 200, ../../app/styles/holiday_travel.sass */
+#ss_rt_button_booking_flight:hover {
+  background: url(../images/ss_rt_button_booking_flight_hover.png) no-repeat;
+}
+
+/* line 202, ../../app/styles/holiday_travel.sass */
+#ss_rt_button_day_of_flight:hover {
+  background: url(../images/ss_rt_button_day_of_flight_hover.png) no-repeat;
+}
+
+/* line 204, ../../app/styles/holiday_travel.sass */
+#ss_rt_button_baggage:hover {
+  background: url(../images/ss_rt_button_baggage_hover.png) no-repeat;
+}
+
+/* line 206, ../../app/styles/holiday_travel.sass */
+#ss_rt_button_security:hover {
+  background: url(../images/ss_rt_button_security_hover.png) no-repeat;
+}
+
+/* line 208, ../../app/styles/holiday_travel.sass */
+#ss_rt_button_in_air_comfort:hover {
+  background: url(../images/ss_rt_button_in_air_comfort_hover.png) no-repeat;
+}
+
+/* line 211, ../../app/styles/holiday_travel.sass */
+.ss_rt_button_booking_flight_active {
+  background: url(../images/ss_rt_button_booking_flight_hover.png) no-repeat !important;
+}
+
+/* line 213, ../../app/styles/holiday_travel.sass */
+.ss_rt_button_day_of_flight_active {
+  background: url(../images/ss_rt_button_day_of_flight_hover.png) no-repeat !important;
+}
+
+/* line 215, ../../app/styles/holiday_travel.sass */
+.ss_rt_button_baggage_active {
+  background: url(../images/ss_rt_button_baggage_hover.png) no-repeat !important;
+}
+
+/* line 217, ../../app/styles/holiday_travel.sass */
+.ss_rt_button_security_active {
+  background: url(../images/ss_rt_button_security_hover.png) no-repeat !important;
+}
+
+/* line 219, ../../app/styles/holiday_travel.sass */
+.ss_rt_button_in_air_comfort_active {
+  background: url(../images/ss_rt_button_in_air_comfort_hover.png) no-repeat !important;
+}
+
+/* line 222, ../../app/styles/holiday_travel.sass */
+.ss_booking_flight,
+.ss_baggage,
+.ss_security,
+.ss_in_air_comfort {
+  display: none;
+}
+
+/* line 228, ../../app/styles/holiday_travel.sass */
+.ss_ht_plane_tips p {
+  font-size: 14px !important;
+}
+
+/* line 232, ../../app/styles/holiday_travel.sass */
+.ss_ht_plane_tips ul {
+  font-size: 14px !important;
+  list-style: disc;
+  padding: 10px 0 0 20px;
+}
+
+/*********************CAR CONTENT POSITIONING*********************** */
+/* line 239, ../../app/styles/holiday_travel.sass */
+#ss_rt_button_planning {
+  background: url(../images/ss_rt_button_planning.png) no-repeat;
+}
+
+/* line 241, ../../app/styles/holiday_travel.sass */
+#ss_rt_button_day_of_trip {
+  background: url(../images/ss_rt_button_day_of_trip.png) no-repeat;
+}
+
+/* line 243, ../../app/styles/holiday_travel.sass */
+#ss_rt_button_packing {
+  background: url(../images/ss_rt_button_packing.png) no-repeat;
+}
+
+/* line 245, ../../app/styles/holiday_travel.sass */
+#ss_rt_button_safety {
+  background: url(../images/ss_rt_button_safety.png) no-repeat;
+}
+
+/* line 247, ../../app/styles/holiday_travel.sass */
+#ss_rt_button_comfort {
+  background: url(../images/ss_rt_button_comfort.png) no-repeat;
+}
+
+/* line 250, ../../app/styles/holiday_travel.sass */
+#ss_rt_button_planning:hover {
+  background: url(../images/ss_rt_button_planning_hover.png) no-repeat;
+}
+
+/* line 252, ../../app/styles/holiday_travel.sass */
+#ss_rt_button_day_of_trip:hover {
+  background: url(../images/ss_rt_button_day_of_trip_hover.png) no-repeat;
+}
+
+/* line 254, ../../app/styles/holiday_travel.sass */
+#ss_rt_button_packing:hover {
+  background: url(../images/ss_rt_button_packing_hover.png) no-repeat;
+}
+
+/* line 256, ../../app/styles/holiday_travel.sass */
+#ss_rt_button_safety:hover {
+  background: url(../images/ss_rt_button_safety_hover.png) no-repeat;
+}
+
+/* line 258, ../../app/styles/holiday_travel.sass */
+#ss_rt_button_comfort:hover {
+  background: url(../images/ss_rt_button_comfort_hover.png) no-repeat;
+}
+
+/* line 261, ../../app/styles/holiday_travel.sass */
+.ss_rt_button_planning_active {
+  background: url(../images/ss_rt_button_planning_hover.png) no-repeat !important;
+}
+
+/* line 263, ../../app/styles/holiday_travel.sass */
+.ss_rt_button_day_of_trip_active {
+  background: url(../images/ss_rt_button_day_of_trip_hover.png) no-repeat !important;
+}
+
+/* line 265, ../../app/styles/holiday_travel.sass */
+.ss_rt_button_packing_active {
+  background: url(../images/ss_rt_button_packing_hover.png) no-repeat !important;
+}
+
+/* line 267, ../../app/styles/holiday_travel.sass */
+.ss_rt_button_safety_active {
+  background: url(../images/ss_rt_button_safety_hover.png) no-repeat !important;
+}
+
+/* line 269, ../../app/styles/holiday_travel.sass */
+.ss_rt_button_comfort_active {
+  background: url(../images/ss_rt_button_comfort_hover.png) no-repeat !important;
+}
+
+/* line 272, ../../app/styles/holiday_travel.sass */
+.ss_day_of_trip,
+.ss_packing,
+.ss_safety,
+.ss_comfort {
+  display: none;
+}
+
+/* line 278, ../../app/styles/holiday_travel.sass */
+.ss_ht_car_nav {
+  background: url("../images/ss_ht_nav_car.png") no-repeat;
+  width: 168px;
+  height: 315px;
+  left: -60px;
+  top: -50px;
+}
+
+/* line 285, ../../app/styles/holiday_travel.sass */
+#ss_ht_car_title {
+  background: url(../images/ss_ht_title_car_travel.png) no-repeat;
+  top:-100px;
+}
+
+/* line 288, ../../app/styles/holiday_travel.sass */
+.ss_ht_car_tips p {
+  font-size: 13px !important;
+  margin: 10px 0 0 0px !important;
+}
+
+/* line 293, ../../app/styles/holiday_travel.sass */
+.ss_ht_car_tips ul {
+  font-size: 13px !important;
+  list-style: disc;
+  padding: 10px 0 0 20px;
+}
+
+/* line 299, ../../app/styles/holiday_travel.sass */
+.ss_ht_car_tips h2 {
+  margin: 70px 0 0 0 !important;
+  font-size: 20px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+/* line 306, ../../app/styles/holiday_travel.sass */
+#ss_ht_wrapper strong {
+  font-weight: bolder;
+}
+
+/* line 309, ../../app/styles/holiday_travel.sass */
+.qtip-title, .qtip {
+  font-family: "Arial" !important;
+}

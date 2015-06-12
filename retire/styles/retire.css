@@ -1,0 +1,480 @@
+/* line 4, ../../app/styles/retire.sass */
+h1 {
+  padding: 90px 0 0 30px;
+  margin-bottom: 0;
+}
+
+/* line 7, ../../app/styles/retire.sass */
+.mb-scroll {
+  height: 580px !important;
+}
+
+/* line 9, ../../app/styles/retire.sass */
+#background-frame {
+  position: absolute;
+}
+/* line 11, ../../app/styles/retire.sass */
+#background-frame img {
+  width: 1700px;
+}
+
+/* line 13, ../../app/styles/retire.sass */
+h1 {
+  margin: 100px 0 0 0;
+  padding: 0;
+}
+
+/* line 17, ../../app/styles/retire.sass */
+.ss_retire {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  background: url("../images/bptr-background-01.png");
+  margin-bottom: 15px;
+  font-family: Helvetica Nueue, Arial;
+}
+/* line 25, ../../app/styles/retire.sass */
+.ss_retire > div {
+  position: absolute;
+}
+/* line 27, ../../app/styles/retire.sass */
+.ss_retire h2 {
+  color: white;
+  font-size: 45px;
+  margin: 0 0 0 0;
+  padding: 0;
+  position: relative;
+  top: 17px;
+  text-transform: uppercase;
+}
+/* line 36, ../../app/styles/retire.sass */
+.ss_retire h3 {
+  background: none;
+}
+/* line 38, ../../app/styles/retire.sass */
+.ss_retire .bubbles {
+  width: inherit;
+  height: inherit;
+}
+/* line 41, ../../app/styles/retire.sass */
+.ss_retire .bubbles > div {
+  position: absolute;
+}
+/* line 43, ../../app/styles/retire.sass */
+.ss_retire .bubbles .costa_rica {
+  top: 222px;
+  left: 164px;
+  width: 190px;
+  height: 66px;
+  background: url("../images/costa-rica-bubble-01.png");
+  cursor: pointer;
+}
+/* line 50, ../../app/styles/retire.sass */
+.ss_retire .bubbles .costa_rica:hover {
+  background: url("../images/costa-rica-bubble-line-01.png");
+}
+/* line 52, ../../app/styles/retire.sass */
+.ss_retire .bubbles .ecuador {
+  top: 305px;
+  left: 165px;
+  width: 195px;
+  height: 88px;
+  background: url("../images/ecuador-bubble-01.png");
+  cursor: pointer;
+}
+/* line 59, ../../app/styles/retire.sass */
+.ss_retire .bubbles .ecuador:hover {
+  background: url("../images/ecuador-bubble-line-01.png");
+}
+/* line 61, ../../app/styles/retire.sass */
+.ss_retire .bubbles .malaysia {
+  top: 211px;
+  left: 565px;
+  width: 152px;
+  height: 127px;
+  background: url("../images/malaysia-bubble-01.png");
+  cursor: pointer;
+}
+/* line 68, ../../app/styles/retire.sass */
+.ss_retire .bubbles .malaysia:hover {
+  background: url("../images/malaysia-bubble-line-01.png");
+}
+/* line 70, ../../app/styles/retire.sass */
+.ss_retire .bubbles .mexico {
+  top: 119px;
+  left: 90px;
+  width: 189px;
+  height: 109px;
+  background: url("../images/mexico-bubble-01.png");
+  cursor: pointer;
+}
+/* line 77, ../../app/styles/retire.sass */
+.ss_retire .bubbles .mexico:hover {
+  background: url("../images/mexico-bubble-line-01.png");
+}
+/* line 79, ../../app/styles/retire.sass */
+.ss_retire .bubbles .panama {
+  top: 260px;
+  left: 10px;
+  width: 159px;
+  height: 101px;
+  background: url("../images/panama-bubble-01.png");
+  cursor: pointer;
+}
+/* line 86, ../../app/styles/retire.sass */
+.ss_retire .bubbles .panama:hover {
+  background: url("../images/panama-bubble-line-01.png");
+}
+/* line 88, ../../app/styles/retire.sass */
+.ss_retire .content {
+  display: none;
+  width: 770px;
+  height: 408px;
+  background: url("../images/semi-transparent-screen-01.png");
+  top: 11px;
+  left: 15px;
+}
+/* line 90, ../../app/styles/retire.sass */
+.ss_retire .content > div {
+  position: absolute;
+}
+/* line 92, ../../app/styles/retire.sass */
+.ss_retire .content > div > div {
+  position: absolute;
+}
+/* line 99, ../../app/styles/retire.sass */
+.ss_retire .content p {
+  font-size: 15px;
+  font-weight: 500;
+}
+/* line 103, ../../app/styles/retire.sass */
+.ss_retire .content .title {
+  background: url("../images/flag-01.png");
+  left: -15px;
+  top: 16px;
+  width: 329px;
+  height: 52px;
+}
+/* line 109, ../../app/styles/retire.sass */
+.ss_retire .content .xx {
+  width: 35px;
+  height: 36px;
+  left: 720px;
+  top: 12px;
+  cursor: pointer;
+  background: url("../images/x-01.png");
+}
+/* line 116, ../../app/styles/retire.sass */
+.ss_retire .content .left {
+  width: 310px;
+  top: 80px;
+  height: inherit;
+  padding: 0 23px;
+}
+/* line 121, ../../app/styles/retire.sass */
+.ss_retire .content .left p {
+  margin: 0;
+}
+/* line 123, ../../app/styles/retire.sass */
+.ss_retire .content .left img {
+  display: block;
+  margin: auto;
+  text-align: center;
+  height: 80px;
+}
+/* line 129, ../../app/styles/retire.sass */
+.ss_retire .content .left .blurb p {
+  color: #be1e2d;
+  font-size: 20px;
+  margin: 0;
+  padding: 0 0 10px 0;
+  line-height: 20px;
+}
+/* line 135, ../../app/styles/retire.sass */
+.ss_retire .content .left .blurb p:first-child + p {
+  font-weight: bolder;
+  font-size: 25px;
+}
+/* line 138, ../../app/styles/retire.sass */
+.ss_retire .content .right {
+  top: 60px;
+  width: 370px;
+  left: 375px;
+}
+/* line 142, ../../app/styles/retire.sass */
+.ss_retire .content .right h3 {
+  padding: 0;
+  margin: 10px 0;
+  color: #be1e2d;
+}
+/* line 146, ../../app/styles/retire.sass */
+.ss_retire .content .right p {
+  margin: 0 0 10px 0;
+}
+/* line 148, ../../app/styles/retire.sass */
+.ss_retire .content .right ul {
+  margin: 0;
+  padding: 0px 0 0 18px;
+  font-size: 15px;
+}
+/* line 152, ../../app/styles/retire.sass */
+.ss_retire .content .right li {
+  margin: 10px 0 0 0;
+  list-style-type: disc;
+}
+/* line 156, ../../app/styles/retire.sass */
+.ss_retire .content .right .culture {
+  position: relative;
+  display: none;
+}
+/* line 159, ../../app/styles/retire.sass */
+.ss_retire .content .right .culture p {
+  margin-top: 20px;
+}
+/* line 161, ../../app/styles/retire.sass */
+.ss_retire .content .right .culture .nav {
+  margin: 0 0 20px 0;
+}
+/* line 163, ../../app/styles/retire.sass */
+.ss_retire .content .right .culture .nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 168, ../../app/styles/retire.sass */
+.ss_retire .content .right .culture .nav li {
+  display: inline;
+  padding: 5px;
+  background: white;
+  cursor: pointer;
+}
+/* line 173, ../../app/styles/retire.sass */
+.ss_retire .content .right .culture .nav li:hover {
+  background: #4c8590;
+  color: white;
+}
+/* line 176, ../../app/styles/retire.sass */
+.ss_retire .content .right .culture .nav li:first-child {
+  background: #4c8590;
+  color: white;
+}
+/* line 179, ../../app/styles/retire.sass */
+.ss_retire .content .right .culture .nav .active {
+  background: #4c8590 !important;
+  color: white !important;
+}
+/* line 182, ../../app/styles/retire.sass */
+.ss_retire .content .right .culture .act {
+  background: #4c8590;
+  color: white;
+}
+/* line 185, ../../app/styles/retire.sass */
+.ss_retire .content .right .culture .taboo {
+  display: none;
+}
+/* line 187, ../../app/styles/retire.sass */
+.ss_retire .content .right .culture .lang {
+  display: none;
+}
+/* line 189, ../../app/styles/retire.sass */
+.ss_retire .content .right .culture .rel {
+  display: none;
+}
+/* line 191, ../../app/styles/retire.sass */
+.ss_retire .content .right .climate {
+  display: none;
+}
+/* line 196, ../../app/styles/retire.sass */
+.ss_retire .main_nav {
+  display: none;
+  top: 405px;
+}
+/* line 199, ../../app/styles/retire.sass */
+.ss_retire .main_nav > div {
+  position: relative;
+  float: left;
+  padding-left: 10px;
+  top: 0px;
+  width: 85px;
+  height: 83px;
+  background: url("../images/main-nav-sprites-01.png");
+  cursor: pointer;
+}
+/* line 208, ../../app/styles/retire.sass */
+.ss_retire .main_nav .cost {
+  background-position: 4px 83px;
+}
+/* line 210, ../../app/styles/retire.sass */
+.ss_retire .main_nav .cost:hover {
+  background-position: 4px 83px;
+}
+/* line 212, ../../app/styles/retire.sass */
+.ss_retire .main_nav .cost.active {
+  background-position: 4px 83px !important;
+}
+/* line 215, ../../app/styles/retire.sass */
+.ss_retire .main_nav .culture {
+  background-position: 189px 0;
+}
+/* line 217, ../../app/styles/retire.sass */
+.ss_retire .main_nav .culture:hover {
+  background-position: 189px 83px;
+}
+/* line 219, ../../app/styles/retire.sass */
+.ss_retire .main_nav .culture.active {
+  background-position: 189px 83px !important;
+}
+/* line 222, ../../app/styles/retire.sass */
+.ss_retire .main_nav .climate {
+  background-position: 97px 0;
+}
+/* line 224, ../../app/styles/retire.sass */
+.ss_retire .main_nav .climate:hover {
+  background-position: 97px 83px;
+}
+/* line 226, ../../app/styles/retire.sass */
+.ss_retire .main_nav .climate.active {
+  background-position: 97px 83px !important;
+}
+/* line 228, ../../app/styles/retire.sass */
+.ss_retire .home {
+  width: 420px;
+  height: 55px;
+  top: 440px;
+  left: 370px;
+  cursor: pointer;
+}
+
+/* line 235, ../../app/styles/retire.sass */
+.btn {
+  display: inline-block;
+  *display: inline;
+  padding: 4px 12px;
+  margin-bottom: 0;
+  *margin-left: 0.3em;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: whitesmoke;
+  *background-color: #e6e6e6;
+  background-image: -moz-linear-gradient(top, white, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, white, #e6e6e6);
+  background-image: -o-linear-gradient(top, white, #e6e6e6);
+  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+  background-repeat: repeat-x;
+  border: 1px solid #bbbbbb;
+  *border: 0;
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border-bottom-color: #a2a2a2;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  *zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+}
+
+/* line 273, ../../app/styles/retire.sass */
+.btn:hover,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled] {
+  color: #333333;
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
+}
+
+/* line 282, ../../app/styles/retire.sass */
+.btn:active,
+.btn.active {
+  background-color: #cccccc \9;
+}
+
+/* line 286, ../../app/styles/retire.sass */
+.btn:first-child {
+  *margin-left: 0;
+}
+
+/* line 289, ../../app/styles/retire.sass */
+.btn:hover {
+  color: #333333;
+  text-decoration: none;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+  -moz-transition: background-position 0.1s linear;
+  -o-transition: background-position 0.1s linear;
+  transition: background-position 0.1s linear;
+}
+
+/* line 298, ../../app/styles/retire.sass */
+.btn:focus {
+  outline: thin dotted #333333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+/* line 303, ../../app/styles/retire.sass */
+.btn.active,
+.btn:active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+/* line 311, ../../app/styles/retire.sass */
+.btn-info {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #49afcd;
+  *background-color: #2f96b4;
+  background-image: -moz-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5bc0de), to(#2f96b4));
+  background-image: -webkit-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: -o-linear-gradient(top, #5bc0de, #2f96b4);
+  background-image: linear-gradient(to bottom, #5bc0de, #2f96b4);
+  background-repeat: repeat-x;
+  border-color: #2f96b4 #2f96b4 #1f6377;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff2f96b4', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+/* line 327, ../../app/styles/retire.sass */
+.btn-info:hover,
+.btn-info:active,
+.btn-info.active,
+.btn-info.disabled,
+.btn-info[disabled] {
+  color: white;
+  background-color: #2f96b4;
+  *background-color: #2a85a0;
+}
+
+/* line 336, ../../app/styles/retire.sass */
+.btn-info:active,
+.btn-info.active {
+  background-color: #24748c \9;
+}
+
+/* line 340, ../../app/styles/retire.sass */
+.btn-primary.active,
+.btn-warning.active,
+.btn-danger.active,
+.btn-success.active,
+.btn-info.active,
+.btn-inverse.active {
+  color: rgba(255, 255, 255, 0.75);
+}

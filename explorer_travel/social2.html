@@ -1,0 +1,42 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title></title>
+
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script> 
+	
+	<style type="text/css">
+		
+		body div a {
+			margin: 0 !important;
+			padding: 0 !important;			
+			
+		}
+		
+		.twitter-share-button {
+			margin: 0; padding: 0;
+		}
+		
+	</style>
+	
+	<script type="text/javascript">
+		
+		
+	</script>
+	
+</head>
+<body>
+	<div>
+	<a id="link1" href="https://twitter.com/share" class="twitter-share-button" data-count="none">Tweet</a> <!-- <br /> -->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<script type="text/javascript">
+var  score = $("#ss_quiz_results").html();
+/* var score = $("#ss_quiz_results").html(); */
+
+$('#link1')[0].setAttribute("data-text",  'My extreme adventure score is ' +  score + '. Get yours at');
+
+</script>
+</div>
+</body>
+</html>

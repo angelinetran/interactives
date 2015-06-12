@@ -1,0 +1,299 @@
+/* Reset -- basic*/
+			body,ul,li { padding: 0; margin: 0; }
+			
+			#ss_wrapper { position: relative; width: 800px; height: 1450px; }
+			
+			#ss_internationalCalling {
+				width: 800px; height: 1450px; 
+				background: url("images/stayInTouch_background.jpg") 0 0 no-repeat;
+			}
+			
+			#ss_internationalCalling select { position: absolute; }
+			
+			#ss_callFrom {
+				top: 225px; left: 150px;
+			}
+			
+			#ss_callTo {
+				top: 320px; left: 400px;
+			}
+			
+			#ss_whatNumber {
+				width: 400px; /* width: 300px; */
+				position: absolute;
+				top: 345px; left: 305px; /* 350 400px; */
+				font-family: "Helvetica", Arial, Verdana, sans-serif;
+				font-size: 55px;
+				font-weight: bold;
+				text-align: center;
+				line-height: 0px;
+				color: #D76E15;
+				text-shadow:2px 3px 1px #d2c2a8; /* #a46a4d;  d2c2a8 */
+			}
+			
+			#ss_whatNumber p { margin-bottom: 0px; }
+			#ss_whatNumber p:nth-child(2) {  margin-top: .75em; }
+			
+			#ss_andNumber {
+				font-size: 23px;
+				line-height: 0px !important;
+			}
+			
+			#ss_numberNotes {
+				width: 350px;
+				position: absolute;
+				top: 490px; left: 340px; /* 390px; */
+				font-family: "Helvetica", Arial, Verdana, sans-serif;
+				font-size: 13px;
+				text-align: center;
+				line-height: 15px;
+				color: #D76E15;
+			}
+			
+			#ss_numberNotes hr { size: 3px; margin: 0 3em 0 3em; color: #D76E15; }
+			
+			#ss_callingStatsBox {
+				background: url("images/stayInTouch_numbersBox2.png") 0 0 no-repeat;
+				width: 800px; height: 415px;
+				position: absolute;
+				top: 620px; left: 0px;
+				/* padding: 3em 8em 0 8em; */
+				padding-top: 4em;								
+			}
+			
+			#ss_statsIntro {
+				width: 400px;
+				margin: auto;
+			}
+			
+			#ss_minutes {
+				height: 125px;
+			}
+			
+			.ss_callingBorder { 
+				background: url("images/stayInTouch_horizontalRule.png") 0 0 no-repeat; 
+				width: 800px; height: 20px; 
+				position: absolute;
+			}
+			
+			#ss_callingBorder_top { 
+				top: 630px; left: 0px;
+			}
+			
+			#ss_callingBorder_bottom { 
+				top: 1150px; left: 0px;
+			}
+									
+			#ss_callingStatsBox p {
+				font-family: "Helvetica", Arial, Verdana, sans-serif;
+				font-size: 14px;
+				text-align: center;
+				color: #589CC7;
+			}
+			
+			#ss_minutesNumber {
+				font-size: 66px;
+				font-weight: bold;				
+				color: #D76E15;
+				text-shadow:3px 3px 1px #ffffff;
+			}
+			
+			#ss_minutesNote {
+				position: absolute;
+				left: 550px;
+				font-size: 12px;
+				font-weight: bold;
+				text-align: right;
+				margin-top: -1.5em;
+			}
+			
+			#ss_numbersTranslate {
+				font-family: "Helvetica", Arial, Verdana, sans-serif;
+				font-size: 14px;
+				margin: auto;
+				width: 550px; height: 90px;
+			}			
+			
+			#ss_callingStats { 
+				position: relative; 
+			}
+			
+			#ss_callingStats p {
+				padding-right: .5em;
+				font-size: 45px;
+				font-weight: bold;
+				text-align: right;				
+				color: #FF9E3F;
+				line-height: 0px;
+				letter-spacing: 3px;
+				text-shadow:3px 3px 1px #ffffff;
+			}
+			
+			#ss_numbersTranslate ul li {
+				list-style-type: none;
+				display: inline;
+				color: #589CC7;
+			}
+			
+			.ss_statsLabel {
+				font-family: "Helvetica", Arial, Verdana, sans-serif;
+				font-size: 33px;
+				font-weight: bold;
+				text-align: center;
+				line-height: 0px;
+				color: #c6d9ee !important;
+				text-shadow:3px 3px 1px #ffffff;
+			}
+			
+			.ss_statsLabel:hover {
+				cursor: pointer;
+				color: #FF9E3F !important;
+			}
+			
+			.ss_statsSelect { color: #88B1DF !important; }
+			
+			#ss_clickMeHelp {
+				position: absolute;
+				left: 230px;
+			}
+			
+			#ss_clickMeContainer { position: absolute; height: 250px; }
+			
+			#ss_extraInfo { 
+				background: url("images/stayInTouch_extraBox_tall.png") 0 0 no-repeat; 
+				width: 800px; height: 500px; /* 463px;  */
+				position: absolute;
+/* 				top: 1050px; left: 0px; */
+				top: 650px; left: 0px;
+				font-family: "Helvetica", Arial, Verdana, sans-serif;
+				font-size: 13px;
+				line-height: 16px;
+				color: #589CC7;
+				margin: auto;
+				padding-top: 2em;
+				overflow: hidden;
+			}
+			
+			#ss_xtraOverFlow {
+				position: absolute;
+				top: 0px; left: 40px;
+				overflow: hidden;
+				width: 720px; height: 463px;
+				padding-top: .5em;
+			}
+			
+			#ss_sub_1 {
+				width: 798px;
+				position: absolute;
+				top: 0px; left: 0px;				
+			}
+			
+			#ss_sub_2 {
+				position: absolute;
+				top: 0px; left: 800px;
+				width: 798px; height: 450px;
+			}
+			
+			.ss_xtraSub_div {
+				position: absolute;
+				top: 80px; left: 0px;
+				width: 200px;				
+			}
+			
+			.ss_xtraSub_div_b {
+				position: absolute;
+				top: 90px; left: 0px;
+				width: 310px;		
+			}
+			
+			.ss_xtraSub_div li { margin-bottom: .5em; }
+			
+			.ss_xtraSub_div_b li { margin-bottom: .5em; }
+			
+			#ss_xtraSub1 {
+				left: 40px;
+			}
+			
+			#ss_xtraSub2 {
+				left: 270px;
+			}
+			
+			#ss_xtraSub3 {
+				left: 510px;
+			}
+			
+			#ss_xtraSub4 {
+				left: 40px;
+			}
+			
+			#ss_xtraSub5 {
+				left: 390px;
+			}			
+			.ss_extraHeader {	
+				width: 710px;			
+				font-size: 33px;
+				font-weight: bold;
+				color: #88B1DF;
+				text-align: center;
+				text-shadow:3px 3px 1px #ffffff;
+			}
+			
+			.ss_xtraSubhead {
+				font-family: "Helvetica", Arial, Verdana, sans-serif;
+				font-size: 16px;
+				color: #FF9E3F;
+				margin: auto;
+				text-align: center;
+				margin-bottom: .5em;
+				text-shadow:1px 2px 1px #ffffff;
+			}
+			
+			.ss_sourceSubhead {
+				font-family: "Helvetica", Arial, Verdana, sans-serif;
+				font-size: 16px;
+				color: #88B1DF;
+				margin: auto;
+				text-align: left;
+				font-weight: normal;
+				margin-bottom: .5em;
+				text-shadow:1px 2px 1px #ffffff;
+			}
+			
+			#ss_intlCall_sources {
+				width: 710px;
+				position: absolute;
+				top: 1190px; left: 50px;
+				font-family: "Helvetica", Arial, Verdana, sans-serif;
+				font-size: 12px;
+				line-height: 18px;
+				color: #589CC7;
+			}
+			
+			#ss_intlCall_sources a {
+				color: #D76E15;
+			}
+			
+			#ss_intlCall_sources li { list-style-type: none; }
+			
+			.ss_navTri {
+				position: absolute;
+				list-style-type: none;
+			}
+			
+			.ss_navTri:hover {
+				cursor: pointer;
+			}
+			
+/*
+			#ss_navtri_R { top: 640px; left: 700px; }
+			#ss_navtri_L { top: 640px; left: 50px; }
+			
+*/
+			#ss_navtri_R { top: 40px; left: 670px; /* 360px; */ }
+			#ss_navtri_L { top: 40px; left: 10px; /* 330px; */ }
+			
+			#ss_extraInfoContainer { position: absolute; width: 1600px; top: 30px; }
+			
+			#ss_extraInfoContainer a {
+				color: #589CC7;
+			}

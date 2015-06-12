@@ -1,0 +1,226 @@
+/* line 4, ../../app/styles/snow_sports.sass */
+.ss_snow_sports {
+  position: relative;
+  width: 670px;
+  height: 600px;
+  background: url(../images/ef10e6f5.ss_ss_bg.png);
+}
+/* line 10, ../../app/styles/snow_sports.sass */
+.ss_snow_sports div {
+  position: absolute;
+}
+/* line 12, ../../app/styles/snow_sports.sass */
+.ss_snow_sports #overlay {
+  position: absolute;
+  width: 670px;
+  height: 600px;
+  background: url(../images/f2247527.ss_ss_overlay.png);
+  z-index: 10;
+  cursor: pointer;
+}
+/* line 19, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .main_nav {
+  cursor: pointer;
+}
+/* line 21, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .ski {
+  width: 155px;
+  height: 296px;
+  top: 210px;
+  left: 60px;
+  background: url(../images/c6de525c.ss_ss_nav_ski.png) no-repeat;
+}
+/* line 27, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .sled {
+  width: 304px;
+  height: 159px;
+  top: 340px;
+  left: 220px;
+  background: url(../images/9162842a.ss_ss_nav_sled.png) no-repeat;
+}
+/* line 33, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .board {
+  width: 65px;
+  height: 210px;
+  top: 270px;
+  left: 560px;
+  background: url(../images/9dbf4ecc.ss_ss_nav_snow_board.png) no-repeat;
+}
+/* line 39, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .modal {
+  width: 646px;
+  height: 367px;
+  top: 180px;
+  left: 10px;
+  background: url(../images/b6cb9b20.ss_ss_content_bg.png) no-repeat;
+  display: none;
+}
+/* line 46, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .close {
+  width: 27px;
+  height: 34px;
+  top: 20px;
+  left: 600px;
+  background: url(../images/1af77079.ss_ss_x.png) no-repeat;
+  cursor: pointer;
+  z-index: 10;
+}
+/* line 54, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .ski_content, .ss_snow_sports .sled_content, .ss_snow_sports .board_content {
+  width: 610px;
+  height: 320px;
+  top: 30px;
+  left: 20px;
+}
+/* line 59, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .ball {
+  position: relative;
+  float: left;
+  width: 39px;
+  height: 37px;
+  background: url(../images/079e06e9.ss_ss_balls.png) no-repeat;
+  background-position: -42px 0px;
+  cursor: pointer;
+  margin: auto;
+}
+/* line 68, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .ball:hover {
+  background: url(../images/079e06e9.ss_ss_balls.png) no-repeat;
+  background-position: 0px 0px;
+}
+/* line 71, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .ball.active {
+  background: url(../images/079e06e9.ss_ss_balls.png) no-repeat;
+  background-position: 0px 0px;
+}
+/* line 74, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .left_arrow, .ss_snow_sports .right_arrow {
+  position: relative;
+  float: left;
+  background: url(../images/67375da5.ss_ss_arrows.png) no-repeat;
+  width: 34px;
+  height: 34px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+/* line 82, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .left_arrow {
+  background-position: 0px, 0px;
+}
+/* line 84, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .right_arrow {
+  background-position: -40px, 0px;
+}
+/* line 87, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .where .nav {
+  position: relative;
+  top: 10px;
+  width: 600px;
+  left: 95px;
+}
+/* line 92, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .what {
+  text-transform: lowercase;
+}
+/* line 94, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .what, .ss_snow_sports .tips {
+  display: none;
+}
+/* line 96, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .where, .ss_snow_sports .what, .ss_snow_sports .tips {
+  top: 40px;
+  position: relative;
+}
+/* line 99, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .where ul, .ss_snow_sports .what ul, .ss_snow_sports .tips ul {
+  padding: 0px 0px 0 20px;
+  display: none;
+}
+/* line 102, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .where ul li, .ss_snow_sports .what ul li, .ss_snow_sports .tips ul li {
+  margin: 15px 0 0 0;
+  list-style: none;
+  font-size: 15px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+/* line 108, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .where img, .ss_snow_sports .what img, .ss_snow_sports .tips img {
+  position: relative;
+  top: 4px;
+  padding: 0 10px 0 0;
+}
+/* line 112, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .where p, .ss_snow_sports .what p, .ss_snow_sports .tips p {
+  margin: 5px 0 0 0;
+}
+/* line 114, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .where ol, .ss_snow_sports .what ol, .ss_snow_sports .tips ol {
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+}
+/* line 119, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .where ol li, .ss_snow_sports .what ol li, .ss_snow_sports .tips ol li {
+  margin: 0 0 0 0;
+}
+/* line 121, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .where ol li p, .ss_snow_sports .what ol li p, .ss_snow_sports .tips ol li p {
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 20px;
+  margin: 0;
+}
+/* line 129, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .where li:first-child {
+  font-size: 20px;
+  font-weight: bold;
+}
+/* line 133, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .where span, .ss_snow_sports .what span, .ss_snow_sports .tips span {
+  font-weight: bolder;
+  font-size: 18px;
+}
+/* line 137, ../../app/styles/snow_sports.sass */
+.ss_snow_sports h2 {
+  color: #53c2be;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px #3b8e86;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0 0 10px 0;
+  margin: 0;
+  letter-spacing: 4px;
+}
+/* line 149, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .show {
+  display: block !important;
+}
+/* line 152, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .modal_nav ul {
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+/* line 155, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .modal_nav ul li {
+  display: inline;
+  margin: 0 0 0 44px;
+  padding: 10px;
+  color: #53c2be;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px #3b8e86;
+}
+/* line 166, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .modal_nav ul li:hover {
+  background: #3b8e86;
+  color: white;
+}
+/* line 169, ../../app/styles/snow_sports.sass */
+.ss_snow_sports .modal_nav li.active {
+  background: #3b8e86;
+  color: white;
+}
